@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D2968CEF1C8D62A400DA01E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */; };
+		D2968CF11C8D62A400DA01E7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */; };
+		D2968CF31C8D62A400DA01E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */; };
+		D2968CF61C8D62A400DA01E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2968CF41C8D62A400DA01E7 /* Main.storyboard */; };
+		D2968CF81C8D62A400DA01E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2968CF71C8D62A400DA01E7 /* Assets.xcassets */; };
+		D2968CFB1C8D62A400DA01E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */; };
+		D2968D061C8D62A400DA01E7 /* ganbaruOreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D051C8D62A400DA01E7 /* ganbaruOreTests.swift */; };
+		D2968D111C8D62A400DA01E7 /* ganbaruOreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D101C8D62A400DA01E7 /* ganbaruOreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D2968D021C8D62A400DA01E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2968CE31C8D62A400DA01E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2968CEA1C8D62A400DA01E7;
+			remoteInfo = ganbaruOre;
+		};
+		D2968D0D1C8D62A400DA01E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2968CE31C8D62A400DA01E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2968CEA1C8D62A400DA01E7;
+			remoteInfo = ganbaruOre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D2968CEB1C8D62A400DA01E7 /* ganbaruOre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ganbaruOre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		D2968CF51C8D62A400DA01E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2968CF71C8D62A400DA01E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D2968CFA1C8D62A400DA01E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D2968CFC1C8D62A400DA01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2968D011C8D62A400DA01E7 /* ganbaruOreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ganbaruOreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2968D051C8D62A400DA01E7 /* ganbaruOreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganbaruOreTests.swift; sourceTree = "<group>"; };
+		D2968D071C8D62A400DA01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2968D0C1C8D62A400DA01E7 /* ganbaruOreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ganbaruOreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2968D101C8D62A400DA01E7 /* ganbaruOreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganbaruOreUITests.swift; sourceTree = "<group>"; };
+		D2968D121C8D62A400DA01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2968CE81C8D62A400DA01E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2968CFE1C8D62A400DA01E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2968D091C8D62A400DA01E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D2968CE21C8D62A400DA01E7 = {
+			isa = PBXGroup;
+			children = (
+				D2968CED1C8D62A400DA01E7 /* ganbaruOre */,
+				D2968D041C8D62A400DA01E7 /* ganbaruOreTests */,
+				D2968D0F1C8D62A400DA01E7 /* ganbaruOreUITests */,
+				D2968CEC1C8D62A400DA01E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D2968CEC1C8D62A400DA01E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2968CEB1C8D62A400DA01E7 /* ganbaruOre.app */,
+				D2968D011C8D62A400DA01E7 /* ganbaruOreTests.xctest */,
+				D2968D0C1C8D62A400DA01E7 /* ganbaruOreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2968CED1C8D62A400DA01E7 /* ganbaruOre */ = {
+			isa = PBXGroup;
+			children = (
+				D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */,
+				D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */,
+				D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */,
+				D2968CF41C8D62A400DA01E7 /* Main.storyboard */,
+				D2968CF71C8D62A400DA01E7 /* Assets.xcassets */,
+				D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */,
+				D2968CFC1C8D62A400DA01E7 /* Info.plist */,
+			);
+			path = ganbaruOre;
+			sourceTree = "<group>";
+		};
+		D2968D041C8D62A400DA01E7 /* ganbaruOreTests */ = {
+			isa = PBXGroup;
+			children = (
+				D2968D051C8D62A400DA01E7 /* ganbaruOreTests.swift */,
+				D2968D071C8D62A400DA01E7 /* Info.plist */,
+			);
+			path = ganbaruOreTests;
+			sourceTree = "<group>";
+		};
+		D2968D0F1C8D62A400DA01E7 /* ganbaruOreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D2968D101C8D62A400DA01E7 /* ganbaruOreUITests.swift */,
+				D2968D121C8D62A400DA01E7 /* Info.plist */,
+			);
+			path = ganbaruOreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2968CEA1C8D62A400DA01E7 /* ganbaruOre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2968D151C8D62A400DA01E7 /* Build configuration list for PBXNativeTarget "ganbaruOre" */;
+			buildPhases = (
+				D2968CE71C8D62A400DA01E7 /* Sources */,
+				D2968CE81C8D62A400DA01E7 /* Frameworks */,
+				D2968CE91C8D62A400DA01E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ganbaruOre;
+			productName = ganbaruOre;
+			productReference = D2968CEB1C8D62A400DA01E7 /* ganbaruOre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D2968D001C8D62A400DA01E7 /* ganbaruOreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2968D181C8D62A400DA01E7 /* Build configuration list for PBXNativeTarget "ganbaruOreTests" */;
+			buildPhases = (
+				D2968CFD1C8D62A400DA01E7 /* Sources */,
+				D2968CFE1C8D62A400DA01E7 /* Frameworks */,
+				D2968CFF1C8D62A400DA01E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2968D031C8D62A400DA01E7 /* PBXTargetDependency */,
+			);
+			name = ganbaruOreTests;
+			productName = ganbaruOreTests;
+			productReference = D2968D011C8D62A400DA01E7 /* ganbaruOreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D2968D0B1C8D62A400DA01E7 /* ganbaruOreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2968D1B1C8D62A400DA01E7 /* Build configuration list for PBXNativeTarget "ganbaruOreUITests" */;
+			buildPhases = (
+				D2968D081C8D62A400DA01E7 /* Sources */,
+				D2968D091C8D62A400DA01E7 /* Frameworks */,
+				D2968D0A1C8D62A400DA01E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D2968D0E1C8D62A400DA01E7 /* PBXTargetDependency */,
+			);
+			name = ganbaruOreUITests;
+			productName = ganbaruOreUITests;
+			productReference = D2968D0C1C8D62A400DA01E7 /* ganbaruOreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D2968CE31C8D62A400DA01E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Takeoka Kensuke";
+				TargetAttributes = {
+					D2968CEA1C8D62A400DA01E7 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					D2968D001C8D62A400DA01E7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D2968CEA1C8D62A400DA01E7;
+					};
+					D2968D0B1C8D62A400DA01E7 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = D2968CEA1C8D62A400DA01E7;
+					};
+				};
+			};
+			buildConfigurationList = D2968CE61C8D62A400DA01E7 /* Build configuration list for PBXProject "ganbaruOre" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D2968CE21C8D62A400DA01E7;
+			productRefGroup = D2968CEC1C8D62A400DA01E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2968CEA1C8D62A400DA01E7 /* ganbaruOre */,
+				D2968D001C8D62A400DA01E7 /* ganbaruOreTests */,
+				D2968D0B1C8D62A400DA01E7 /* ganbaruOreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D2968CE91C8D62A400DA01E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2968CFB1C8D62A400DA01E7 /* LaunchScreen.storyboard in Resources */,
+				D2968CF81C8D62A400DA01E7 /* Assets.xcassets in Resources */,
+				D2968CF61C8D62A400DA01E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2968CFF1C8D62A400DA01E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2968D0A1C8D62A400DA01E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2968CE71C8D62A400DA01E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2968CF31C8D62A400DA01E7 /* SecondViewController.swift in Sources */,
+				D2968CEF1C8D62A400DA01E7 /* AppDelegate.swift in Sources */,
+				D2968CF11C8D62A400DA01E7 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2968CFD1C8D62A400DA01E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2968D061C8D62A400DA01E7 /* ganbaruOreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2968D081C8D62A400DA01E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2968D111C8D62A400DA01E7 /* ganbaruOreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D2968D031C8D62A400DA01E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2968CEA1C8D62A400DA01E7 /* ganbaruOre */;
+			targetProxy = D2968D021C8D62A400DA01E7 /* PBXContainerItemProxy */;
+		};
+		D2968D0E1C8D62A400DA01E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2968CEA1C8D62A400DA01E7 /* ganbaruOre */;
+			targetProxy = D2968D0D1C8D62A400DA01E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D2968CF41C8D62A400DA01E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2968CF51C8D62A400DA01E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2968CFA1C8D62A400DA01E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D2968D131C8D62A400DA01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D2968D141C8D62A400DA01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2968D161C8D62A400DA01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ganbaruOre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kensk8.ganbaruOre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D2968D171C8D62A400DA01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ganbaruOre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kensk8.ganbaruOre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D2968D191C8D62A400DA01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ganbaruOreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kensk8.ganbaruOreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ganbaruOre.app/ganbaruOre";
+			};
+			name = Debug;
+		};
+		D2968D1A1C8D62A400DA01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ganbaruOreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kensk8.ganbaruOreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ganbaruOre.app/ganbaruOre";
+			};
+			name = Release;
+		};
+		D2968D1C1C8D62A400DA01E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ganbaruOreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kensk8.ganbaruOreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ganbaruOre;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D2968D1D1C8D62A400DA01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ganbaruOreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kensk8.ganbaruOreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ganbaruOre;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D2968CE61C8D62A400DA01E7 /* Build configuration list for PBXProject "ganbaruOre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2968D131C8D62A400DA01E7 /* Debug */,
+				D2968D141C8D62A400DA01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2968D151C8D62A400DA01E7 /* Build configuration list for PBXNativeTarget "ganbaruOre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2968D161C8D62A400DA01E7 /* Debug */,
+				D2968D171C8D62A400DA01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2968D181C8D62A400DA01E7 /* Build configuration list for PBXNativeTarget "ganbaruOreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2968D191C8D62A400DA01E7 /* Debug */,
+				D2968D1A1C8D62A400DA01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D2968D1B1C8D62A400DA01E7 /* Build configuration list for PBXNativeTarget "ganbaruOreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D2968D1C1C8D62A400DA01E7 /* Debug */,
+				D2968D1D1C8D62A400DA01E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D2968CE31C8D62A400DA01E7 /* Project object */;
+}
