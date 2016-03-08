@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2968CEA1C8D62A400DA01E7"
+               BuildableName = "ganbaruOre.app"
+               BlueprintName = "ganbaruOre"
+               ReferencedContainer = "container:ganbaruOre.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2968D001C8D62A400DA01E7"
+               BuildableName = "ganbaruOreTests.xctest"
+               BlueprintName = "ganbaruOreTests"
+               ReferencedContainer = "container:ganbaruOre.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "D2968D0B1C8D62A400DA01E7"
+               BuildableName = "ganbaruOreUITests.xctest"
+               BlueprintName = "ganbaruOreUITests"
+               ReferencedContainer = "container:ganbaruOre.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2968CEA1C8D62A400DA01E7"
+            BuildableName = "ganbaruOre.app"
+            BlueprintName = "ganbaruOre"
+            ReferencedContainer = "container:ganbaruOre.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2968CEA1C8D62A400DA01E7"
+            BuildableName = "ganbaruOre.app"
+            BlueprintName = "ganbaruOre"
+            ReferencedContainer = "container:ganbaruOre.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "D2968CEA1C8D62A400DA01E7"
+            BuildableName = "ganbaruOre.app"
+            BlueprintName = "ganbaruOre"
+            ReferencedContainer = "container:ganbaruOre.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
