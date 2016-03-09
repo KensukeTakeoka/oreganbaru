@@ -20,6 +20,8 @@
 		D2968D251C8D72AB00DA01E7 /* osusumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D241C8D72AB00DA01E7 /* osusumeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C4163D1C8EAC130058C98D /* FirstfoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C4163F1C8EAC570058C98D /* SecondOsusumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D2C416451C900B7F0058C98D /* firstnagoya.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C416441C900B7F0058C98D /* firstnagoya.plist */; settings = {ASSET_TAGS = (); }; };
+		D2C416471C900BA00058C98D /* secondnagoya.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C416461C900BA00058C98D /* secondnagoya.plist */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,8 @@
 		D2968D241C8D72AB00DA01E7 /* osusumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = osusumeViewController.swift; sourceTree = "<group>"; };
 		D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstfoodViewController.swift; sourceTree = "<group>"; };
 		D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondOsusumeViewController.swift; sourceTree = "<group>"; };
+		D2C416441C900B7F0058C98D /* firstnagoya.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = firstnagoya.plist; sourceTree = "<group>"; };
+		D2C416461C900BA00058C98D /* secondnagoya.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = secondnagoya.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 				D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */,
 				D2968D241C8D72AB00DA01E7 /* osusumeViewController.swift */,
 				D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */,
+				D2C416461C900BA00058C98D /* secondnagoya.plist */,
+				D2C416441C900B7F0058C98D /* firstnagoya.plist */,
 				D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */,
 				D2968D201C8D658C00DA01E7 /* thirdBookmarkViewController.swift */,
 				D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */,
@@ -248,7 +254,9 @@
 			files = (
 				D2968CFB1C8D62A400DA01E7 /* LaunchScreen.storyboard in Resources */,
 				D2968CF81C8D62A400DA01E7 /* Assets.xcassets in Resources */,
+				D2C416451C900B7F0058C98D /* firstnagoya.plist in Resources */,
 				D2968CF61C8D62A400DA01E7 /* Main.storyboard in Resources */,
+				D2C416471C900BA00058C98D /* secondnagoya.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

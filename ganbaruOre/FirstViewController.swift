@@ -10,6 +10,7 @@ import UIKit
 
 class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDelegate {
     @IBOutlet weak var firstTableView: UITableView!
+    @IBOutlet weak var nagoyaBtn: UIButton!
     var selectedIndex = -1
     
     override func viewDidLoad() {
@@ -54,9 +55,9 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
     }
     // Segueで画面遷移する時
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var secondVC = segue.destinationViewController as! foodViewController
+        //var secondVC = segue.destinationViewController as! FirstfoodViewController
         
-        secondVC.scSelectedIndex = selectedIndex
+        //secondVC.scSelectedIndex = selectedIndex
 
     }
 

@@ -40,6 +40,14 @@
                                     <outlet property="delegate" destination="9pv-A4-QxB" id="8so-Mo-tUe"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se4-td-cne">
+                                <rect key="frame" x="285" y="83" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="zdc-wh-eam" kind="show" id="yMH-nM-EqI"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -49,11 +57,12 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="firstTableView" destination="MuO-hw-Umq" id="hRs-8s-hv2"/>
+                        <outlet property="nagoyaBtn" destination="Se4-td-cne" id="nei-QM-DVS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="910.5" y="-491.5"/>
+            <point key="canvasLocation" x="942.5" y="-883.5"/>
         </scene>
         <!--Food View Controller-->
         <scene sceneID="2Wl-ob-dKH">
@@ -64,16 +73,26 @@
                         <viewControllerLayoutGuide type="bottom" id="pk3-D2-k6u"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" restorationIdentifier="food" id="aiP-rq-uRo">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akq-QY-XUo">
+                                <rect key="frame" x="236" y="72" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="9pv-A4-QxB" kind="show" id="LLH-Gt-n3J"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Vm-qI-dp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1486.5" y="-491.5"/>
+            <point key="canvasLocation" x="1380" y="-925"/>
         </scene>
         <!--Second Osusume View Controller-->
         <scene sceneID="98i-dJ-YFd">
@@ -111,7 +130,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="duJ-vO-6f3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="614" y="240"/>
+            <point key="canvasLocation" x="724" y="20"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="wg7-f3-ORb">
@@ -149,6 +168,14 @@
                                     <outlet property="delegate" destination="8rJ-Kc-sve" id="Bkn-M8-VJ0"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVX-jT-pHi">
+                                <rect key="frame" x="234" y="61" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="kEL-Pr-gb4" kind="show" id="yTE-ex-cyU"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -162,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1228.5" y="252.5"/>
+            <point key="canvasLocation" x="1352.5" y="5.5"/>
         </scene>
         <!--Osusume View Controller-->
         <scene sceneID="kiL-B5-JDF">
@@ -175,6 +202,16 @@
                     <view key="view" contentMode="scaleToFill" id="E7W-xX-e8t">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpI-8E-IMz">
+                                <rect key="frame" x="291" y="39" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="8rJ-Kc-sve" kind="show" id="y4W-WQ-h8E"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -182,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zc3-mQ-CQP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1771.5" y="284.5"/>
+            <point key="canvasLocation" x="1772.5" y="-0.5"/>
         </scene>
         <!--Third Bookmark View Controller-->
         <scene sceneID="HE0-nI-d64">
@@ -195,6 +232,16 @@
                     <view key="view" contentMode="scaleToFill" id="OEo-6j-4fG">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZR-bh-5b6">
+                                <rect key="frame" x="278" y="52" width="46" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="49e-Tb-3d3" kind="show" id="aCT-HJ-8Kp"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -203,7 +250,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="J2c-EK-Dxs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="625.5" y="1059.5"/>
+            <point key="canvasLocation" x="474.5" y="793.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -248,6 +295,7 @@
                                 <animations/>
                                 <state key="normal" title="Button"/>
                                 <connections>
+                                    <action selector="firstFoodsBtn:" destination="zdc-wh-eam" eventType="touchUpInside" id="T0Q-8T-EYm"/>
                                     <segue destination="9pv-A4-QxB" kind="show" id="H7J-I4-lDh"/>
                                 </connections>
                             </button>
@@ -258,12 +306,19 @@
                     <tabBarItem key="tabBarItem" systemItem="topRated" id="DVc-2Q-Jq3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="firstFoodBtn" destination="zZ8-1I-BYS" id="WKc-zE-puv"/>
                         <outlet property="firstFoodMap" destination="7Ys-7n-Ocl" id="6qV-dB-k4d"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szF-J5-kqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="423" y="-525"/>
+            <point key="canvasLocation" x="423" y="-909"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="yTE-ex-cyU"/>
+        <segue reference="y4W-WQ-h8E"/>
+        <segue reference="LLH-Gt-n3J"/>
+        <segue reference="yMH-nM-EqI"/>
+    </inferredMetricsTieBreakers>
 </document>
