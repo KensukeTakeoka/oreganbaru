@@ -4,9 +4,30 @@
 <dict>
 	<key>osusumenagoya</key>
 	<array>
-		<dict/>
-		<dict/>
-		<dict/>
+		<dict>
+			<key>name</key>
+			<string>a.i.r.age</string>
+			<key>address</key>
+			<string>春日井</string>
+			<key>picture</key>
+			<string>写真</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>味仙</string>
+			<key>address</key>
+			<string>栄</string>
+			<key>picture</key>
+			<string>は</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>お店</string>
+			<key>address</key>
+			<string>大須</string>
+			<key>picture</key>
+			<string>っっっっk</string>
+		</dict>
 	</array>
 </dict>
 </plist>

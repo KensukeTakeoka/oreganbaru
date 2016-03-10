@@ -13,8 +13,13 @@ class FirstfoodViewController: UIViewController {
 
     @IBOutlet weak var firstFoodBtn: UIButton!
     @IBOutlet weak var firstFoodMap: MKMapView!
+    var nagoyafood:[NSString] = []
+    var dic:NSDictionary?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+      
 
         // Do any additional setup after loading the view.
         let coordinate = CLLocationCoordinate2DMake(10.311715, 123.918332);

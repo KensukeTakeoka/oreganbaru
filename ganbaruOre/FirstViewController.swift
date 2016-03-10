@@ -12,10 +12,31 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
     @IBOutlet weak var firstTableView: UITableView!
     @IBOutlet weak var nagoyaBtn: UIButton!
     var selectedIndex = -1
+    var nagoyafood:[NSString] = []
+    var dic:NSDictionary?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //プロパティリストからデータを読み込み、配列に格納
+        
+        //ファイルのパスを取得
+        var filePath = NSBundle.mainBundle().pathForResource("firstnagoya", ofType: "plist")
+        
+        //ファイルの内容を読み込んでディクショナリー型に代入
+        self.dic = NSDictionary(contentsOfFile: filePath!)
+        var misokatsu:[NSDictionary] = []
+        
+        //TableViewで扱いやすい形（エリア名の入ってる配列）を作成
+        for(key,data) in dic!{
+            misokatsu = data as! NSArray as! [NSDictionary]
+        }
+        for(data) in misokatsu{
+            //            値を一個ずつ入れる　append
+            nagoyafood.append(data["name"] as! String)
+            print(nagoyafood)
+        }
+
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -24,14 +45,16 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
     }
     //    行数
     func tableView(tableView :UITableView, numberOfRowsInSection section: Int) ->Int{
-        return 10
+        return nagoyafood.count
         
     }
     //    表示するセルの中身
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->
         UITableViewCell{
             var cell = UITableViewCell(style: .Default, reuseIdentifier: "myCell")
-            cell.textLabel?.text = "\(indexPath.row)行目"
+           
+            cell.textLabel?.text = nagoyafood[indexPath.row] as String
+            
             
             cell.textLabel?.textColor = UIColor.redColor()
             

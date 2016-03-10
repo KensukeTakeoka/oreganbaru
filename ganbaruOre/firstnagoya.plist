@@ -4,9 +4,30 @@
 <dict>
 	<key>foodnagoyalist</key>
 	<array>
-		<dict/>
-		<dict/>
-		<dict/>
+		<dict>
+			<key>name</key>
+			<string>たいよう</string>
+			<key>address</key>
+			<string>おおお</string>
+			<key>picture</key>
+			<string>ああああ</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>いいいい</string>
+			<key>address</key>
+			<string>サーバー</string>
+			<key>picture</key>
+			<string>仮想</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>PHP</string>
+			<key>address</key>
+			<string>JJK</string>
+			<key>picture</key>
+			<string>KKK</string>
+		</dict>
 	</array>
 </dict>
 </plist>

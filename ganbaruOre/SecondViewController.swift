@@ -12,9 +12,30 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
 
     @IBOutlet weak var secondDayo: UITableView!
     var selectedIndex = -1
+    var osusumeshop:[NSString] = []
+    var dic:NSDictionary?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        //ファイルのパスを取得
+        var filePath = NSBundle.mainBundle().pathForResource("secondnagoya", ofType: "plist")
+        
+        //ファイルの内容を読み込んでディクショナリー型に代入
+        self.dic = NSDictionary(contentsOfFile: filePath!)
+        var shopp:[NSDictionary] = []
+        
+        //TableViewで扱いやすい形（エリア名の入ってる配列）を作成
+        for(key,data) in dic!{
+            shopp = data as! NSArray as! [NSDictionary]
+        }
+        for(data) in shopp{
+            //            値を一個ずつ入れる　append
+            osusumeshop.append(data["address"] as! String)
+            print(osusumeshop)
+        }
+
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -23,7 +44,7 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
     }
     //    行数
     func tableView(tableView :UITableView, numberOfRowsInSection section: Int) ->Int{
-        return 10
+        return 3
         
     }
 
@@ -31,7 +52,10 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->
         UITableViewCell{
             var cell = UITableViewCell(style: .Default, reuseIdentifier: "TableViewCell")
-            cell.textLabel?.text = "\(indexPath.row)行目"
+            
+          cell.textLabel?.text = osusumeshop[indexPath.row] as String
+            
+            
             
             cell.textLabel?.textColor = UIColor.redColor()
             
