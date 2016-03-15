@@ -31,7 +31,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="a6p-Jr-8l1" kind="show" id="xQa-Ip-6qv"/>
+                                            <segue destination="xgw-bW-M4w" kind="show" id="U5H-Nu-5gz"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -45,7 +45,8 @@
                                 <animations/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <segue destination="zdc-wh-eam" kind="show" id="yMH-nM-EqI"/>
+                                    <action selector="returnBtn:" destination="9pv-A4-QxB" eventType="touchUpInside" id="5eN-Mw-gHZ"/>
+                                    <segue destination="zdc-wh-eam" kind="show" identifier="backTop" id="yMH-nM-EqI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -62,37 +63,40 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="942.5" y="-883.5"/>
+            <point key="canvasLocation" x="999.5" y="-886.5"/>
         </scene>
-        <!--Food View Controller-->
-        <scene sceneID="2Wl-ob-dKH">
+        <!--First Detail View Controller-->
+        <scene sceneID="dPY-UF-zoW">
             <objects>
-                <viewController storyboardIdentifier="food" id="a6p-Jr-8l1" customClass="foodViewController" customModule="ganbaruOre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="firstDetail" id="xgw-bW-M4w" customClass="FirstDetailViewController" customModule="ganbaruOre" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="PUd-W9-hvB"/>
-                        <viewControllerLayoutGuide type="bottom" id="pk3-D2-k6u"/>
+                        <viewControllerLayoutGuide type="top" id="pJT-yG-9M2"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Pd-3H-fGw"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" restorationIdentifier="food" id="aiP-rq-uRo">
+                    <view key="view" contentMode="scaleToFill" id="rZz-jz-Cz1">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="akq-QY-XUo">
-                                <rect key="frame" x="236" y="72" width="46" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
+                                <rect key="frame" x="40" y="318" width="240" height="128"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="9pv-A4-QxB" kind="show" id="LLH-Gt-n3J"/>
-                                </connections>
-                            </button>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4O-wM-ZdX">
+                                <rect key="frame" x="40" y="140" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7Vm-qI-dp2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JO4-KN-bXr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1380" y="-925"/>
+            <point key="canvasLocation" x="1497" y="-936"/>
         </scene>
         <!--Second Osusume View Controller-->
         <scene sceneID="98i-dJ-YFd">
@@ -159,7 +163,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="Tit-cY-PDa" kind="presentation" id="LCL-o7-cFj"/>
+                                            <segue destination="o9H-0O-y4d" kind="show" id="TiB-xU-qQZ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -191,66 +195,38 @@
             </objects>
             <point key="canvasLocation" x="1352.5" y="5.5"/>
         </scene>
-        <!--Osusume View Controller-->
-        <scene sceneID="kiL-B5-JDF">
+        <!--Second Detail View Controller-->
+        <scene sceneID="nUo-jE-Dto">
             <objects>
-                <viewController storyboardIdentifier="osusume" id="Tit-cY-PDa" customClass="osusumeViewController" customModule="ganbaruOre" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="secondDetail" id="o9H-0O-y4d" customClass="SecondDetailViewController" customModule="ganbaruOre" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="LU2-rg-qBt"/>
-                        <viewControllerLayoutGuide type="bottom" id="7je-Pd-t6Y"/>
+                        <viewControllerLayoutGuide type="top" id="glX-dr-n7B"/>
+                        <viewControllerLayoutGuide type="bottom" id="7xe-cL-ENN"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="E7W-xX-e8t">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="view" contentMode="scaleToFill" id="xX1-8H-stt">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GpI-8E-IMz">
-                                <rect key="frame" x="291" y="39" width="46" height="30"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SLB-S2-U9y">
+                                <rect key="frame" x="40" y="367" width="240" height="128"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="8rJ-Kc-sve" kind="show" id="y4W-WQ-h8E"/>
-                                </connections>
-                            </button>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQ1-Zg-a6G">
+                                <rect key="frame" x="40" y="105" width="240" height="128"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zc3-mQ-CQP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vN8-Gx-FKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1772.5" y="-0.5"/>
-        </scene>
-        <!--Third Bookmark View Controller-->
-        <scene sceneID="HE0-nI-d64">
-            <objects>
-                <viewController id="ijt-KQ-v09" customClass="thirdBookmarkViewController" customModule="ganbaruOre" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="N4N-oi-8RZ"/>
-                        <viewControllerLayoutGuide type="bottom" id="rMQ-0k-DyL"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="OEo-6j-4fG">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2ZR-bh-5b6">
-                                <rect key="frame" x="278" y="52" width="46" height="30"/>
-                                <animations/>
-                                <state key="normal" title="Button"/>
-                                <connections>
-                                    <segue destination="49e-Tb-3d3" kind="show" id="aCT-HJ-8Kp"/>
-                                </connections>
-                            </button>
-                        </subviews>
-                        <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" systemItem="bookmarks" id="P7B-yT-cVw"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="J2c-EK-Dxs" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="474.5" y="793.5"/>
+            <point key="canvasLocation" x="1795" y="-44"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -267,7 +243,6 @@
                     <connections>
                         <segue destination="zdc-wh-eam" kind="relationship" relationship="viewControllers" id="vVV-gc-ch1"/>
                         <segue destination="kEL-Pr-gb4" kind="relationship" relationship="viewControllers" id="7ku-Pj-JTc"/>
-                        <segue destination="ijt-KQ-v09" kind="relationship" relationship="viewControllers" id="CN3-xD-qz0"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
@@ -317,8 +292,6 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="yTE-ex-cyU"/>
-        <segue reference="y4W-WQ-h8E"/>
-        <segue reference="H7J-I4-lDh"/>
         <segue reference="yMH-nM-EqI"/>
     </inferredMetricsTieBreakers>
 </document>

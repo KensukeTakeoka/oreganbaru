@@ -5,28 +5,375 @@
 	<key>osusumenagoya</key>
 	<array>
 		<dict>
-			<key>name</key>
-			<string>a.i.r.age</string>
-			<key>address</key>
-			<string>春日井</string>
-			<key>picture</key>
-			<string>写真</string>
-		</dict>
-		<dict>
+			<key>genre</key>
+			<string>中華</string>
 			<key>name</key>
 			<string>味仙</string>
+			<key>latitude</key>
+			<string>35.167941</string>
+			<key>longitude</key>
+			<string>136.935887</string>
 			<key>address</key>
-			<string>栄</string>
-			<key>picture</key>
-			<string>は</string>
+			<string>愛知県名古屋市千種区今池1-12-10</string>
+			<key>phone number</key>
+			<string>052-733-7670</string>
+			<key>home page</key>
+			<string>http://www.misen.ne.jp/</string>
+			<key>regular holiday</key>
+			<string>年中無休</string>
+			<key>business hours</key>
+			<string>PM5:30～AM2:00</string>
 		</dict>
 		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
 			<key>name</key>
-			<string>お店</string>
+			<string>cafe ocean</string>
+			<key>latitude</key>
+			<string>34.783096</string>
+			<key>longitude</key>
+			<string>137.12611</string>
 			<key>address</key>
-			<string>大須</string>
-			<key>picture</key>
-			<string>っっっっk</string>
+			<string>愛知県西尾市寺部町笠外186-36</string>
+			<key>phone number</key>
+			<string>0563-62-6123</string>
+			<key>home page</key>
+			<string>http://www.cafe-ocean.com/cafe/info/</string>
+			<key>regular holiday</key>
+			<string>年中無休</string>
+			<key>business hours</key>
+			<string>11時~日没30分後</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>居酒屋</string>
+			<key>name</key>
+			<string>日向バンカラ</string>
+			<key>latitude</key>
+			<string>35.16634</string>
+			<key>longitude</key>
+			<string>136.90387</string>
+			<key>address</key>
+			<string>愛知県名古屋市中区栄3-12-32 レジャーセンタービル 1F</string>
+			<key>phone number</key>
+			<string>052-243-8408</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230103/23002974/</string>
+			<key>regular holiday</key>
+			<string>日曜日</string>
+			<key>business hours</key>
+			<string>17:00～翌3:00（L.O.2:15）</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>ラーメン</string>
+			<key>name</key>
+			<string>ラーメン福</string>
+			<key>latitude</key>
+			<string>35.11389</string>
+			<key>longitude</key>
+			<string>136.869738</string>
+			<key>address</key>
+			<string>名古屋市港区川西通3-9</string>
+			<key>phone number</key>
+			<string>052-653-1587</string>
+			<key>home page</key>
+			<string>http://ra-menfuku.com/</string>
+			<key>regular holiday</key>
+			<string>火曜日</string>
+			<key>business hours</key>
+			<string>11:00～11:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>ラグスロー</string>
+			<key>latitude</key>
+			<string>34.958284</string>
+			<key>longitude</key>
+			<string>137.163286</string>
+			<key>address</key>
+			<string>愛知県岡崎市康生通西1-9</string>
+			<key>phone number</key>
+			<string>0564-23-782</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2305/A230502/23002513/</string>
+			<key>regular holiday</key>
+			<string>毎週月曜日</string>
+			<key>business hours</key>
+			<string>［火・水・木・金・日］
+18:00～02:00
+［土］</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>JIRRI.</string>
+			<key>latitude</key>
+			<string>35.163246</string>
+			<key>longitude</key>
+			<string>136.905818</string>
+			<key>address</key>
+			<string>愛知県名古屋市中区栄3-33-29</string>
+			<key>phone number</key>
+			<string>052-228-7221</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230103/23043640/</string>
+			<key>regular holiday</key>
+			<string>水曜日</string>
+			<key>business hours</key>
+			<string>月～金
+11:30～17:00 (L.O.16:00)
+18:00〜22:00 (L.O.21:00)
+土曜日11:30〜23:00 (L.O.22:00)
+日曜日11:30〜22:00 (L.O.21:00)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>RiR organic+greens</string>
+			<key>latitude</key>
+			<string>35.16303</string>
+			<key>longitude</key>
+			<string>136.91127</string>
+			<key>address</key>
+			<string>愛知県名古屋市中区栄5-19-27 河合ビル 1F</string>
+			<key>phone number</key>
+			<string>052-252-5989</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230103/23044641/</string>
+			<key>regular holiday</key>
+			<string>日曜、月曜</string>
+			<key>business hours</key>
+			<string>[火〜金]
+12:00～15:00(LO14:30)
+17:00~22:00(LO21:30)
+[土・祝]
+12:00~22:00(LO21:30)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>かき氷</string>
+			<key>name</key>
+			<string>かき氷屋川久</string>
+			<key>latitude</key>
+			<string>35.158358</string>
+			<key>longitude</key>
+			<string>136.904996</string>
+			<key>address</key>
+			<string>愛知県名古屋市中区大須3-32-12</string>
+			<key>phone number</key>
+			<string>0568-83-9786</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230105/23049877/</string>
+			<key>regular holiday</key>
+			<string>不定休</string>
+			<key>business hours</key>
+			<string>11:00～18:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>ie gorico</string>
+			<key>latitude</key>
+			<string>35.161685</string>
+			<key>longitude</key>
+			<string>136.907223</string>
+			<key>address</key>
+			<string>名古屋市中区大須４-１-１２</string>
+			<key>phone number</key>
+			<string>090-7694-6678 (岡部)</string>
+			<key>home page</key>
+			<string>http://gorico.me/?p=25</string>
+			<key>regular holiday</key>
+			<string>日曜日＋α</string>
+			<key>business hours</key>
+			<string>16:00~24:00 (foodラストオーダー23:00)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>ラーメン</string>
+			<key>name</key>
+			<string>てっぺん</string>
+			<key>latitude</key>
+			<string>35.210762</string>
+			<key>longitude</key>
+			<string>136.905911</string>
+			<key>address</key>
+			<string>名古屋市北区金城町4-41-6</string>
+			<key>phone number</key>
+			<string>052-916-1010</string>
+			<key>home page</key>
+			<string>http://teppen.hp4u.jp/</string>
+			<key>regular holiday</key>
+			<string>年中無休</string>
+			<key>business hours</key>
+			<string>昼 / 11:00～14:45 (L.O.14:45)
+夜 / 18:00～23:15 (L.O.23:15)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>星月夜</string>
+			<key>latitude</key>
+			<string>35.379803</string>
+			<key>longitude</key>
+			<string>136.939076</string>
+			<key>address</key>
+			<string>愛知県犬山市大字犬山字西古券92</string>
+			<key>phone number</key>
+			<string>0568-54-3473</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2303/A230301/23049886/</string>
+			<key>regular holiday</key>
+			<string>火曜日・水曜日</string>
+			<key>business hours</key>
+			<string>11:00～17:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string></string>
+			<key>name</key>
+			<string></string>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phone number</key>
+			<string></string>
+			<key>home page</key>
+			<string></string>
+			<key>regular holiday</key>
+			<string></string>
+			<key>business hours</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string></string>
+			<key>name</key>
+			<string></string>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phone number</key>
+			<string></string>
+			<key>home page</key>
+			<string></string>
+			<key>regular holiday</key>
+			<string></string>
+			<key>business hours</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string></string>
+			<key>name</key>
+			<string></string>
+			<key>latitude</key>
+			<string></string>
+			<key>longitude</key>
+			<string></string>
+			<key>address</key>
+			<string></string>
+			<key>phone number</key>
+			<string></string>
+			<key>home page</key>
+			<string></string>
+			<key>regular holiday</key>
+			<string></string>
+			<key>business hours</key>
+			<string></string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>トライバルアーツ</string>
+			<key>latitude</key>
+			<string>35.123616</string>
+			<key>longitude</key>
+			<string>136.998147</string>
+			<key>address</key>
+			<string>名古屋市天白区 中平 1-501</string>
+			<key>phone number</key>
+			<string>052-848-3433</string>
+			<key>home page</key>
+			<string>http://tribal-arts.net/</string>
+			<key>regular holiday</key>
+			<string>水曜定休</string>
+			<key>business hours</key>
+			<string>11:00-21:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>ラーメン</string>
+			<key>name</key>
+			<string>如水</string>
+			<key>latitude</key>
+			<string>35.183069</string>
+			<key>longitude</key>
+			<string>136.92834</string>
+			<key>address</key>
+			<string>愛知県名古屋市東区徳川町201</string>
+			<key>phone number</key>
+			<string>052-937-9228</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230110/23000971/</string>
+			<key>regular holiday</key>
+			<string>水曜定休</string>
+			<key>business hours</key>
+			<string>11:00-21:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string></string>
+			<key>name</key>
+			<string>たいよう</string>
+			<key>latitude</key>
+			<string>35.246319</string>
+			<key>longitude</key>
+			<string>136.952281</string>
+			<key>address</key>
+			<string>愛知県春日井市如意申町7-12-5</string>
+			<key>phone number</key>
+			<string>0568-32-1331</string>
+			<key>home page</key>
+			<string>https://www.facebook.com/taiyoutaiyoutaiyou</string>
+			<key>regular holiday</key>
+			<string>木曜日</string>
+			<key>business hours</key>
+			<string>12~20(L.o19)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string></string>
+			<key>name</key>
+			<string>decibel</string>
+			<key>latitude</key>
+			<string>35.165182</string>
+			<key>longitude</key>
+			<string>136.912951</string>
+			<key>address</key>
+			<string>愛知県名古屋市中区栄5-6-33</string>
+			<key>phone number</key>
+			<string>052-243-7525</string>
+			<key>home page</key>
+			<string>http://decibel8.com/shop-info.htm</string>
+			<key>regular holiday</key>
+			<string>月曜・火曜</string>
+			<key>business hours</key>
+			<string>16~23</string>
 		</dict>
 	</array>
 </dict>

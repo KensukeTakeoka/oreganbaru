@@ -13,18 +13,41 @@ class FirstfoodViewController: UIViewController {
 
     @IBOutlet weak var firstFoodBtn: UIButton!
     @IBOutlet weak var firstFoodMap: MKMapView!
-    var nagoyafood:[NSString] = []
-    var dic:NSDictionary?
+    var nagoyafood:[NSDictionary] = []
+     var dic:NSDictionary?
+    
+    var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //ファイルのパスを取得
+        var filePath = NSBundle.mainBundle().pathForResource("firstnagoya", ofType: "plist")
         
+        //ファイルの内容を読み込んでディクショナリー型に代入
+        self.dic = NSDictionary(contentsOfFile: filePath!)!
+        var misokatsu:[NSDictionary] = []
+        
+        //TableViewで扱いやすい形（エリア名の入ってる配列）を作成
+        for(key,data) in self.dic!{
+            misokatsu = data as! NSArray as! [NSDictionary]
+        }
+        for(data) in misokatsu{
+            //            値を一個ずつ入れる　append
+            nagoyafood.append(data as NSDictionary)
+            
+        }
+        
+        var longitude = atof(nagoyafood[1]["longitude"] as! String)
+        var latitude = atof(nagoyafood[1]["latitude"] as! String)
+
+
       
 
         // Do any additional setup after loading the view.
-        let coordinate = CLLocationCoordinate2DMake(10.311715, 123.918332);
+        let coordinate = CLLocationCoordinate2DMake(latitude, longitude);
         //縮尺を設定
-        let span = MKCoordinateSpanMake(0.5, 0.5)
+        let span = MKCoordinateSpanMake(0.01, 0.01)
         
         
         //範囲オブジェクトを作成

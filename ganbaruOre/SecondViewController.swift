@@ -12,7 +12,7 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
 
     @IBOutlet weak var secondDayo: UITableView!
     var selectedIndex = -1
-    var osusumeshop:[NSString] = []
+    var osusumeshop:[NSDictionary] = []
     var dic:NSDictionary?
     
     
@@ -31,8 +31,8 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
         }
         for(data) in shopp{
             //            値を一個ずつ入れる　append
-            osusumeshop.append(data["address"] as! String)
-            print(osusumeshop)
+            osusumeshop.append(data as! NSDictionary)
+            
         }
 
         
@@ -53,8 +53,13 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
         UITableViewCell{
             var cell = UITableViewCell(style: .Default, reuseIdentifier: "TableViewCell")
             
-          cell.textLabel?.text = osusumeshop[indexPath.row] as String
-            
+//          cell.textLabel?.text = osusumeshop[indexPath.row] as Dictionary
+            var name = osusumeshop[indexPath.row]["name"] as! String
+            var address = osusumeshop[indexPath.row]["address"] as! String
+            var picture = osusumeshop[indexPath.row]["picture"] as! String
+
+            cell.textLabel?.text = "\(name) 住所:\(address) 写真:\(picture)"
+
             
             
             cell.textLabel?.textColor = UIColor.redColor()

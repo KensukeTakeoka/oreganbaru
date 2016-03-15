@@ -1,14 +1,14 @@
 //
-//  osusumeViewController.swift
+//  SecondDetailViewController.swift
 //  ganbaruOre
 //
-//  Created by 武岡健介 on 2016/03/07.
+//  Created by 武岡健介 on 2016/03/15.
 //  Copyright © 2016年 Takeoka Kensuke. All rights reserved.
 //
 
 import UIKit
 
-class osusumeViewController: UIViewController {
+class SecondDetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

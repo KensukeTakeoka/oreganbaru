@@ -15,13 +15,12 @@
 		D2968CFB1C8D62A400DA01E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */; };
 		D2968D061C8D62A400DA01E7 /* ganbaruOreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D051C8D62A400DA01E7 /* ganbaruOreTests.swift */; };
 		D2968D111C8D62A400DA01E7 /* ganbaruOreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D101C8D62A400DA01E7 /* ganbaruOreUITests.swift */; };
-		D2968D211C8D658C00DA01E7 /* thirdBookmarkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D201C8D658C00DA01E7 /* thirdBookmarkViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D2968D231C8D727200DA01E7 /* foodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D221C8D727200DA01E7 /* foodViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		D2968D251C8D72AB00DA01E7 /* osusumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D241C8D72AB00DA01E7 /* osusumeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C4163D1C8EAC130058C98D /* FirstfoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C4163F1C8EAC570058C98D /* SecondOsusumeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C416451C900B7F0058C98D /* firstnagoya.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C416441C900B7F0058C98D /* firstnagoya.plist */; settings = {ASSET_TAGS = (); }; };
 		D2C416471C900BA00058C98D /* secondnagoya.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C416461C900BA00058C98D /* secondnagoya.plist */; settings = {ASSET_TAGS = (); }; };
+		D2C651F41C97EF9A004583CD /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D2C651F61C97EFDD004583CD /* SecondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,13 +55,12 @@
 		D2968D0C1C8D62A400DA01E7 /* ganbaruOreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ganbaruOreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2968D101C8D62A400DA01E7 /* ganbaruOreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ganbaruOreUITests.swift; sourceTree = "<group>"; };
 		D2968D121C8D62A400DA01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D2968D201C8D658C00DA01E7 /* thirdBookmarkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdBookmarkViewController.swift; sourceTree = "<group>"; };
-		D2968D221C8D727200DA01E7 /* foodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = foodViewController.swift; sourceTree = "<group>"; };
-		D2968D241C8D72AB00DA01E7 /* osusumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = osusumeViewController.swift; sourceTree = "<group>"; };
 		D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstfoodViewController.swift; sourceTree = "<group>"; };
 		D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondOsusumeViewController.swift; sourceTree = "<group>"; };
 		D2C416441C900B7F0058C98D /* firstnagoya.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = firstnagoya.plist; sourceTree = "<group>"; };
 		D2C416461C900BA00058C98D /* secondnagoya.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = secondnagoya.plist; sourceTree = "<group>"; };
+		D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
+		D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,15 +112,14 @@
 			isa = PBXGroup;
 			children = (
 				D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */,
-				D2968D221C8D727200DA01E7 /* foodViewController.swift */,
-				D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */,
-				D2968D241C8D72AB00DA01E7 /* osusumeViewController.swift */,
-				D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */,
-				D2C416461C900BA00058C98D /* secondnagoya.plist */,
-				D2C416441C900B7F0058C98D /* firstnagoya.plist */,
 				D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */,
-				D2968D201C8D658C00DA01E7 /* thirdBookmarkViewController.swift */,
+				D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */,
+				D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */,
+				D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */,
 				D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */,
+				D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */,
+				D2C416441C900B7F0058C98D /* firstnagoya.plist */,
+				D2C416461C900BA00058C98D /* secondnagoya.plist */,
 				D2968CF41C8D62A400DA01E7 /* Main.storyboard */,
 				D2968CF71C8D62A400DA01E7 /* Assets.xcassets */,
 				D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */,
@@ -282,13 +279,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2C4163F1C8EAC570058C98D /* SecondOsusumeViewController.swift in Sources */,
-				D2968D251C8D72AB00DA01E7 /* osusumeViewController.swift in Sources */,
+				D2C651F61C97EFDD004583CD /* SecondDetailViewController.swift in Sources */,
 				D2C4163D1C8EAC130058C98D /* FirstfoodViewController.swift in Sources */,
-				D2968D211C8D658C00DA01E7 /* thirdBookmarkViewController.swift in Sources */,
+				D2C651F41C97EF9A004583CD /* FirstDetailViewController.swift in Sources */,
 				D2968CF31C8D62A400DA01E7 /* SecondViewController.swift in Sources */,
 				D2968CEF1C8D62A400DA01E7 /* AppDelegate.swift in Sources */,
 				D2968CF11C8D62A400DA01E7 /* FirstViewController.swift in Sources */,
-				D2968D231C8D727200DA01E7 /* foodViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
