@@ -69,7 +69,10 @@ class FirstfoodViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func firstFoodsBtn(sender: UIButton) {
-    }
+    @IBAction func firstFoodsBtn(sender: AnyObject) {
+        
+        
+        self.dismissViewControllerAnimated(false, completion: nil)
+        print("cancel")    }
     
 }

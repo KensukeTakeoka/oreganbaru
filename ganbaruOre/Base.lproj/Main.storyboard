@@ -22,7 +22,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCell" id="S5u-DN-zGK">
-                                        <rect key="frame" x="0.0" y="28" width="355" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="355" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S5u-DN-zGK" id="2f5-Fm-o4S">
                                             <rect key="frame" x="0.0" y="0.0" width="355" height="43"/>
@@ -31,7 +31,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="xgw-bW-M4w" kind="show" id="U5H-Nu-5gz"/>
+                                            <segue destination="xgw-bW-M4w" kind="show" identifier="firstDetail" id="U5H-Nu-5gz"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -41,19 +41,18 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se4-td-cne">
-                                <rect key="frame" x="285" y="83" width="46" height="30"/>
+                                <rect key="frame" x="271" y="83" width="75" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="地図表示へ"/>
                                 <connections>
                                     <action selector="returnBtn:" destination="9pv-A4-QxB" eventType="touchUpInside" id="5eN-Mw-gHZ"/>
-                                    <segue destination="zdc-wh-eam" kind="show" identifier="backTop" id="yMH-nM-EqI"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="1X5-Wx-P4a"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -63,7 +62,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="999.5" y="-886.5"/>
+            <point key="canvasLocation" x="1531.5" y="-886.5"/>
         </scene>
         <!--First Detail View Controller-->
         <scene sceneID="dPY-UF-zoW">
@@ -77,26 +76,51 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
-                                <rect key="frame" x="40" y="318" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VPw-ac-IPF">
+                                <rect key="frame" x="20" y="20" width="46" height="30"/>
                                 <animations/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <segue destination="78c-3a-vNd" kind="show" id="P2b-Nm-c9T"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-OC-oLk">
+                                <rect key="frame" x="7" y="86" width="301" height="207"/>
+                                <animations/>
+                            </mapView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
+                                <rect key="frame" x="7" y="301" width="301" height="267"/>
+                                <animations/>
+                                <string key="text">住所:
+東京都港区
+
+連絡先:
+090-889-9900
+
+URL:
+http://www.yahoo.co.jp/
+
+定休日:
+毎週日曜日
+
+営業時間:
+12時まで</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="g4O-wM-ZdX">
-                                <rect key="frame" x="40" y="140" width="240" height="128"/>
-                                <animations/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="firstText" destination="ttG-UU-JaA" id="hsS-nq-635"/>
+                        <outlet property="firsyDetail" destination="iLc-OC-oLk" id="3eD-wq-bAU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JO4-KN-bXr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1497" y="-936"/>
+            <point key="canvasLocation" x="2130" y="-879"/>
         </scene>
         <!--Second Osusume View Controller-->
         <scene sceneID="98i-dJ-YFd">
@@ -115,11 +139,12 @@
                                 <animations/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIg-Ca-aM3">
-                                <rect key="frame" x="236" y="20" width="46" height="30"/>
+                                <rect key="frame" x="214" y="20" width="90" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="リスト表示へ"/>
                                 <connections>
-                                    <segue destination="8rJ-Kc-sve" kind="show" id="6gx-1c-Rkv"/>
+                                    <action selector="secondBtnList:" destination="kEL-Pr-gb4" eventType="touchUpInside" id="HBf-BL-bxc"/>
+                                    <segue destination="P6j-Ea-N7g" kind="show" id="6gx-1c-Rkv"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -129,6 +154,7 @@
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="uWS-XR-Ua5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="secondBtnList" destination="SIg-Ca-aM3" id="xDG-VK-v3f"/>
                         <outlet property="secondFoodMap" destination="q8M-jT-ZDr" id="gDq-OD-eQo"/>
                     </connections>
                 </viewController>
@@ -154,7 +180,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="yN2-mN-Dvy">
-                                        <rect key="frame" x="0.0" y="28" width="308" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="308" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="yN2-mN-Dvy" id="P0r-JV-hVL">
                                             <rect key="frame" x="0.0" y="0.0" width="308" height="43"/>
@@ -163,7 +189,7 @@
                                         </tableViewCellContentView>
                                         <animations/>
                                         <connections>
-                                            <segue destination="o9H-0O-y4d" kind="show" id="TiB-xU-qQZ"/>
+                                            <segue destination="o9H-0O-y4d" kind="show" identifier="secondDetailsegue" id="mCG-dM-q2z"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -173,18 +199,18 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVX-jT-pHi">
-                                <rect key="frame" x="234" y="61" width="46" height="30"/>
+                                <rect key="frame" x="187" y="63" width="75" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="地図表示へ"/>
                                 <connections>
-                                    <segue destination="kEL-Pr-gb4" kind="show" id="yTE-ex-cyU"/>
+                                    <action selector="secondRtnBtn:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5b9-Ub-hsQ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="history" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" id="n7z-Kj-zGq"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
@@ -193,7 +219,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1352.5" y="5.5"/>
+            <point key="canvasLocation" x="1700.5" y="69.5"/>
         </scene>
         <!--Second Detail View Controller-->
         <scene sceneID="nUo-jE-Dto">
@@ -207,26 +233,48 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SLB-S2-U9y">
-                                <rect key="frame" x="40" y="367" width="240" height="128"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wKq-Hm-vlX">
+                                <rect key="frame" x="20" y="20" width="46" height="30"/>
                                 <animations/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <state key="normal" title="Button"/>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Lu5-xz-xml">
+                                <rect key="frame" x="7" y="80" width="308" height="203"/>
+                                <animations/>
+                            </mapView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="SLB-S2-U9y">
+                                <rect key="frame" x="7" y="285" width="308" height="267"/>
+                                <animations/>
+                                <string key="text"> 住所:
+東京都港区
+
+連絡先:
+090-889-9900
+
+URL:
+http://www.yahoo.co.jp/
+
+定休日:
+毎週日曜日
+
+営業時間:
+12時まで</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zQ1-Zg-a6G">
-                                <rect key="frame" x="40" y="105" width="240" height="128"/>
-                                <animations/>
-                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="XeK-5l-f2Q"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="secondText" destination="SLB-S2-U9y" id="cXX-mt-qoz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vN8-Gx-FKb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1795" y="-44"/>
+            <point key="canvasLocation" x="2404" y="65"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -266,12 +314,12 @@
                                 <animations/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZ8-1I-BYS">
-                                <rect key="frame" x="221" y="51" width="46" height="30"/>
+                                <rect key="frame" x="199" y="51" width="90" height="30"/>
                                 <animations/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" title="リスト表示へ"/>
                                 <connections>
                                     <action selector="firstFoodsBtn:" destination="zdc-wh-eam" eventType="touchUpInside" id="T0Q-8T-EYm"/>
-                                    <segue destination="9pv-A4-QxB" kind="show" id="H7J-I4-lDh"/>
+                                    <segue destination="78c-3a-vNd" kind="show" id="H7J-I4-lDh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -289,9 +337,48 @@
             </objects>
             <point key="canvasLocation" x="423" y="-909"/>
         </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JWz-5s-Fp0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="78c-3a-vNd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="mostViewed" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Neb-r2-r00">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="jqx-7v-bnn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rw1-j7-cqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="999" y="-887"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="V3c-4G-wlI">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P6j-Ea-N7g" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="history" id="cPa-gy-q4n"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hEM-lv-4qz">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="rAP-QF-yx3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qbf-Pr-DLi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1196" y="20"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="yTE-ex-cyU"/>
-        <segue reference="yMH-nM-EqI"/>
+        <segue reference="P2b-Nm-c9T"/>
     </inferredMetricsTieBreakers>
 </document>

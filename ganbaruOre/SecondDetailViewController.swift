@@ -7,29 +7,79 @@
 //
 
 import UIKit
+import MapKit
 
 class SecondDetailViewController: UIViewController {
-
+    
+    @IBOutlet weak var secondText: UITextView!
+    @IBOutlet weak var secondDetail: MKMapView!
+    var osusumeshop:[NSDictionary] = []
+    var dic:NSDictionary?
+    var scSelectedIndex = -1
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-
+        print(scSelectedIndex)
+        
+        
+//        var address = "東京都"
+//        キーボードを無くすコード
+        secondText.editable = false
+        
+        secondText.text = "住所:\n\(address)連絡先:\n\(phone number)ホームページ:\n\(home page)定休日:\n\(regular holiday)営業時間:\n\(business hours)"
+        
+        //ファイルのパスを取得
+        var filePath = NSBundle.mainBundle().pathForResource("secondnagoya", ofType: "plist")
+        
+        //ファイルの内容を読み込んでディクショナリー型に代入
+        self.dic = NSDictionary(contentsOfFile: filePath!)!
+        var shopp:[NSDictionary] = []
+        //TableViewで扱いやすい形（エリア名の入ってる配列）を作成
+        for(key,data) in self.dic!{
+            shopp = data as! NSArray as! [NSDictionary]
+        }
+        for(data) in shopp{
+            //            値を一個ずつ入れる　append
+            osusumeshop.append(data as NSDictionary)
+            
+        }
+        var recomendShop = osusumeshop[scSelectedIndex]["name"] as! String
+        print(recomendShop)
+        
+        var longitude = atof(osusumeshop[scSelectedIndex]["longitude"] as! String)
+        var latitude = atof(osusumeshop[scSelectedIndex]["latitude"] as! String)
+        
+        
+        
+        
         // Do any additional setup after loading the view.
+        let coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+        //縮尺を設定
+        let span = MKCoordinateSpanMake(0.01, 0.01)
+        
+        
+        //範囲オブジェクトを作成
+        let region = MKCoordinateRegionMake(coordinate, span)
+        
+//        //MapViewに設定
+//        firsyDetail.setRegion(region, animated: true)
+//        
+//        let annotation = MKPointAnnotation()
+//        annotation.coordinate = coordinate
+//        annotation.title = "title"
+//        annotation.subtitle = "subtitle"
+//        self.firsyDetail.addAnnotation(annotation)
+        
     }
-
+    
+    
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
+    
+    
 }

@@ -18,6 +18,7 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
     var address = String()
     var longitude = Double()
     var latitude = Double()
+    var index = Int()
     
     
     override func viewDidLoad() {
@@ -40,6 +41,7 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
             nagoyafood.append(data as NSDictionary)
             
         }
+        print(nagoyafood[0])
 
         
     }
@@ -79,10 +81,13 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
     }
 //    選択された時に行う処理
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath!){
-        var targetView: UIViewController = self.storyboard!.instantiateViewControllerWithIdentifier("genre")
-        name = nagoyafood[indexPath.row]["name"] as! String
-        longitude = atof(nagoyafood[indexPath.row]["longitude"] as! String)
-        latitude = atof(nagoyafood[indexPath.row]["latitude"] as! String)
+//        var targetView: UIViewController = self.storyboard!.instantiateViewControllerWithIdentifier("genre")
+//        name = nagoyafood[indexPath.row]["name"] as! String
+//        longitude = atof(nagoyafood[indexPath.row]["longitude"] as! String)
+//        latitude = atof(nagoyafood[indexPath.row]["latitude"] as! String)
+        index = indexPath.row
+        performSegueWithIdentifier("firstDetail",sender: nil)
+        
         
        
     }
@@ -91,15 +96,21 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
         return true
     }
     // Segueで画面遷移する時
-    @IBAction func returnBtn(sender: UIButton) {
+    @IBAction func returnBtn(sender: UIButton) {self.dismissViewControllerAnimated(false, completion: nil)
+        print("cancel")
+        
+        
         
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        //var secondVC = segue.destinationViewController as! FirstfoodViewController
         
-        //secondVC.scSelectedIndex = selectedIndex
+        var secondVC = segue.destinationViewController as! FirstDetailViewController
+        
+        secondVC.scSelectedIndex = index
 
     }
+    
+   
 
 
 }

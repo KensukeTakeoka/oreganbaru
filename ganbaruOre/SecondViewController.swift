@@ -14,6 +14,10 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
     var selectedIndex = -1
     var osusumeshop:[NSDictionary] = []
     var dic:NSDictionary?
+    var name = String()
+    var address = String()
+    var longitude = Double()
+    var latitude = Double()
     
     
     override func viewDidLoad() {
@@ -44,22 +48,22 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
     }
     //    行数
     func tableView(tableView :UITableView, numberOfRowsInSection section: Int) ->Int{
-        return 3
+        return 10
         
     }
-
     //    表示するセルの中身
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) ->
         UITableViewCell{
-            var cell = UITableViewCell(style: .Default, reuseIdentifier: "TableViewCell")
+            var cell = UITableViewCell(style: .Default, reuseIdentifier: "myCell")
             
-//          cell.textLabel?.text = osusumeshop[indexPath.row] as Dictionary
-            var name = osusumeshop[indexPath.row]["name"] as! String
-            var address = osusumeshop[indexPath.row]["address"] as! String
-            var picture = osusumeshop[indexPath.row]["picture"] as! String
-
-            cell.textLabel?.text = "\(name) 住所:\(address) 写真:\(picture)"
-
+            name = osusumeshop[indexPath.row]["name"] as! String
+            address = osusumeshop[indexPath.row]["address"] as! String
+            //             longitude = nagoyafood[indexPath.row]["longtiude"] as! String
+            //            latitude = nagoyafood[indexPath.row]["latitude"] as! String
+            
+            // picture = nagoyafood[indexPath.row]["picture"] as! String
+            
+            cell.textLabel?.text = "\(name)"
             
             
             cell.textLabel?.textColor = UIColor.redColor()
@@ -73,25 +77,41 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
     }
     //    選択された時に行う処理
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath!){
-        print("\(indexPath.row)行目を選択")
-        var targetView: UIViewController = self.storyboard!.instantiateViewControllerWithIdentifier("osusume")
-        targetView.modalTransitionStyle = UIModalTransitionStyle.FlipHorizontal
-        self.presentViewController(targetView, animated: true, completion: nil)
-    }
-
+        //        var targetView: UIViewController = self.storyboard!.instantiateViewControllerWithIdentifier("genre")
+        //        name = nagoyafood[indexPath.row]["name"] as! String
+        //        longitude = atof(nagoyafood[indexPath.row]["longitude"] as! String)
+        //        latitude = atof(nagoyafood[indexPath.row]["latitude"] as! String)
+        
+        selectedIndex = indexPath.row
+        performSegueWithIdentifier("secondDetailsegue",sender: nil)
         
         
     }
     //    ステータスバーを非表示にする
-//    override func prefersStatusBarHidden() -> Bool {
-//        return true
+    override func prefersStatusBarHidden() -> Bool {
+        return true
+    }
     
-// Segueで画面遷移する時
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-//    var secondVC = segue.destinationViewController as! osusumeViewController
-//    
-//        secondVC.scSelectedIndex = selectedIndex
-//    }
+        
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        var secondVC = segue.destinationViewController as! SecondDetailViewController
+        
+        secondVC.scSelectedIndex = selectedIndex
+        
+    }
+    
+    
+    @IBAction func secondRtnBtn(sender: UIButton) {
+        self.dismissViewControllerAnimated(false, completion: nil)
+        print("cancel")
+
+        
+        }
+
+}
+    
+
 
 
 

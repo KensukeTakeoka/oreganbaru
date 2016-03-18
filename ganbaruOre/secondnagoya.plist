@@ -6,6 +6,303 @@
 	<array>
 		<dict>
 			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>スムース食堂</string>
+			<key>latitude</key>
+			<string>35.190604</string>
+			<key>longitude</key>
+			<string>136.908325</string>
+			<key>address</key>
+			<string>愛知県名古屋市北区柳原2-20-13</string>
+			<key>phone number</key>
+			<string>不明</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230109/23044762/</string>
+			<key>regular holiday</key>
+			<string>日曜日</string>
+			<key>business hours</key>
+			<string>［月~木&amp;土］ 19:00～0:00（L.O.23:30）
+［金］ 21:00～0:00（L.O.23:30）
+※イベント出店などの都合により変更あります。詳しくはスムース食堂のFacebookで随時更新しております。</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>Hang out coffee</string>
+			<key>latitude</key>
+			<string>35.290261</string>
+			<key>longitude</key>
+			<string>136.816426</string>
+			<key>address</key>
+			<string>愛知県一宮市森本4-6-12</string>
+			<key>phone number</key>
+			<string>0586-58-7486</string>
+			<key>home page</key>
+			<string>http://hangout-coffee.com/</string>
+			<key>regular holiday</key>
+			<string>木曜日</string>
+			<key>business hours</key>
+			<string>11:00 - 23:00
+※月曜〜水曜　20:00まで</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>イタリアン</string>
+			<key>name</key>
+			<string>Piccola</string>
+			<key>latitude</key>
+			<string>35.173965</string>
+			<key>longitude</key>
+			<string>136.928207</string>
+			<key>address</key>
+			<string>愛知県名古屋市東区筒井3-26-27</string>
+			<key>phone number</key>
+			<string>052-935-8484</string>
+			<key>home page</key>
+			<string>http://www.faldo.co.jp/</string>
+			<key>regular holiday</key>
+			<string>年中無休</string>
+			<key>business hours</key>
+			<string>11:30～15:00(L.O.14:30)
+17:30～23:00(L.O.22:30)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>ラーメン</string>
+			<key>name</key>
+			<string>萬来亭</string>
+			<key>latitude</key>
+			<string>35.085124</string>
+			<key>longitude</key>
+			<string>136.961119</string>
+			<key>address</key>
+			<string>愛知県名古屋市緑区作の山町230番地 メゾン作の山1F
+愛知県名古屋市緑区作の山町230番地 メゾン作の山1F
+</string>
+			<key>phone number</key>
+			<string>052-892-1110</string>
+			<key>home page</key>
+			<string>http://homepage3.nifty.com/banraitei/</string>
+			<key>regular holiday</key>
+			<string>第二日曜日・月曜日・火曜日</string>
+			<key>business hours</key>
+			<string>11:30～14:00 (L.O.)
+18:00～22:00 (L.O.)
+11:30～14:00 (L.O.)
+18:00～22:00 (L.O.)
+</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>YURI</string>
+			<key>latitude</key>
+			<string>35.172645</string>
+			<key>longitude</key>
+			<string>136.908951</string>
+			<key>address</key>
+			<string>愛知県名古屋市東区東桜1-10-40</string>
+			<key>phone number</key>
+			<string>052-951-7800</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230103/23006831/</string>
+			<key>regular holiday</key>
+			<string>月曜日</string>
+			<key>business hours</key>
+			<string>[火～土] 12:00～24:00 [日・祝] 12:00～22:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>ラーメン</string>
+			<key>name</key>
+			<string>江南</string>
+			<key>latitude</key>
+			<string>35.170793</string>
+			<key>longitude</key>
+			<string>136.882756</string>
+			<key>address</key>
+			<string>名古屋市中村区名駅1丁目1-4
+JRセントラルタワーズ 13F</string>
+			<key>phone number</key>
+			<string>052-586-0252</string>
+			<key>home page</key>
+			<string>http://konan-nagoya.jp/</string>
+			<key>regular holiday</key>
+			<string>年中無休</string>
+			<key>business hours</key>
+			<string>11:00〜23:00（LO 22:30）</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>Kitica</string>
+			<key>latitude</key>
+			<string>35.127095</string>
+			<key>longitude</key>
+			<string>136.903003</string>
+			<key>address</key>
+			<string>愛知県名古屋市熱田区白鳥1-2-37</string>
+			<key>phone number</key>
+			<string>052-683-1333</string>
+			<key>home page</key>
+			<string>http://kitica.me/</string>
+			<key>regular holiday</key>
+			<string>月曜日</string>
+			<key>business hours</key>
+			<string>火〜金 　11:30〜15:00(14:30l.o)　18:00〜23:00(22:00l.o)
+ランチ　14:30l.o
+土　　　11:30〜23:00(22:00l.o)
+日　　　11:30〜18:00(17:00l.o)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>KAKUOZAN LARDER</string>
+			<key>latitude</key>
+			<string>35.166745</string>
+			<key>longitude</key>
+			<string>136.951425</string>
+			<key>address</key>
+			<string>愛知県名古屋市千種区覚王山通9-14</string>
+			<key>phone number</key>
+			<string>052-762-2786</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230107/23048923/</string>
+			<key>regular holiday</key>
+			<string>毎週火水曜日</string>
+			<key>business hours</key>
+			<string>11:45～23:00(L.O.22:00)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>コメダ珈琲店</string>
+			<key>latitude</key>
+			<string>35.137874</string>
+			<key>longitude</key>
+			<string>136.950409</string>
+			<key>address</key>
+			<string>愛知県名古屋市瑞穂区上山町3-13</string>
+			<key>phone number</key>
+			<string>TEL：052-833-2888 FAX：052-833-2888</string>
+			<key>home page</key>
+			<string>http://www.komeda.co.jp/</string>
+			<key>regular holiday</key>
+			<string>年中無休 　※年末年始は変更する場合がございます</string>
+			<key>business hours</key>
+			<string>06:30〜23:30</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>たらそ</string>
+			<key>latitude</key>
+			<string>34.783103</string>
+			<key>longitude</key>
+			<string>137.096307</string>
+			<key>address</key>
+			<string>愛知県西尾市吉良町宮崎弥五郎3-3</string>
+			<key>phone number</key>
+			<string>（0563）32-4222</string>
+			<key>home page</key>
+			<string>http://www.taraso.com/</string>
+			<key>regular holiday</key>
+			<string>年中無休</string>
+			<key>business hours</key>
+			<string>open月～金：10:00、土日：9:00
+■close月～金：日没1時間後、</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>ハーモニー食堂</string>
+			<key>latitude</key>
+			<string>34.65997</string>
+			<key>longitude</key>
+			<string>137.35977</string>
+			<key>address</key>
+			<string>愛知県豊橋市西赤沢字堂田392-5</string>
+			<key>phone number</key>
+			<string>0532-87-4946</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2306/A230601/23051354/</string>
+			<key>regular holiday</key>
+			<string>月曜日・第2火曜日・第4火曜日
+</string>
+			<key>business hours</key>
+			<string>9:00～17:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>cafe kaya</string>
+			<key>latitude</key>
+			<string>35.030632</string>
+			<key>longitude</key>
+			<string>136.952063</string>
+			<key>address</key>
+			<string>愛知県大府市共和町6丁目262-1 </string>
+			<key>phone number</key>
+			<string>0562-74-0381</string>
+			<key>home page</key>
+			<string>http://www.cafe-kaya.com/</string>
+			<key>regular holiday</key>
+			<string>定休日　火曜日 と 第1月曜日 </string>
+			<key>business hours</key>
+			<string>10:00～20:00（19:15） 　
+月曜のみ 10:00～18:00（17:30）</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>寿司</string>
+			<key>name</key>
+			<string>龍文</string>
+			<key>latitude</key>
+			<string>35.172118</string>
+			<key>longitude</key>
+			<string>136.927382</string>
+			<key>address</key>
+			<string>愛知県名古屋市東区葵3丁目17番43号</string>
+			<key>phone number</key>
+			<string>052-937-6695</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2301/A230106/23009742/</string>
+			<key>regular holiday</key>
+			<string>日・祝</string>
+			<key>business hours</key>
+			<string>11:00～21:30(L.O.21:00)</string>
+		</dict>
+		<dict>
+			<key>genre</key>
+			<string>カフェ</string>
+			<key>name</key>
+			<string>ろじうらのカフェ バンバン堂</string>
+			<key>latitude</key>
+			<string>35.138349</string>
+			<key>longitude</key>
+			<string>137.319692</string>
+			<key>address</key>
+			<string>愛知県豊田市足助町石橋34-6</string>
+			<key>phone number</key>
+			<string>090-4257-7240</string>
+			<key>home page</key>
+			<string>http://tabelog.com/aichi/A2305/A230501/23053376/</string>
+			<key>regular holiday</key>
+			<string>火曜日・水曜日</string>
+			<key>business hours</key>
+			<string>10:00～17:00</string>
+		</dict>
+		<dict>
+			<key>genre</key>
 			<string>中華</string>
 			<key>name</key>
 			<string>味仙</string>
@@ -237,63 +534,66 @@
 		</dict>
 		<dict>
 			<key>genre</key>
-			<string></string>
+			<string>うなぎ</string>
 			<key>name</key>
-			<string></string>
+			<string>たむろ</string>
 			<key>latitude</key>
-			<string></string>
+			<string>35.235153</string>
 			<key>longitude</key>
-			<string></string>
+			<string>136.867703</string>
 			<key>address</key>
-			<string></string>
+			<string>
+
+愛知県北名古屋市九之坪長堀56-1</string>
 			<key>phone number</key>
-			<string></string>
+			<string>0568-48-1662（予約可）</string>
 			<key>home page</key>
-			<string></string>
+			<string>http://www.tamurohonmaru.com/menu/</string>
 			<key>regular holiday</key>
-			<string></string>
+			<string>月曜日</string>
 			<key>business hours</key>
-			<string></string>
+			<string>11:11～14:30（オーダーストップ）
+17:11～21:30（オーダーストップ）</string>
 		</dict>
 		<dict>
 			<key>genre</key>
-			<string></string>
+			<string>カフェ</string>
 			<key>name</key>
-			<string></string>
+			<string>星月夜</string>
 			<key>latitude</key>
-			<string></string>
+			<string>35.379803</string>
 			<key>longitude</key>
-			<string></string>
+			<string>136.939076</string>
 			<key>address</key>
-			<string></string>
+			<string>愛知県犬山市大字犬山字西古券92</string>
 			<key>phone number</key>
-			<string></string>
+			<string>0568-54-3473</string>
 			<key>home page</key>
-			<string></string>
+			<string>http://tabelog.com/aichi/A2303/A230301/23049886/</string>
 			<key>regular holiday</key>
-			<string></string>
+			<string>火曜日・水曜日</string>
 			<key>business hours</key>
-			<string></string>
+			<string>11:00～17:00</string>
 		</dict>
 		<dict>
 			<key>genre</key>
-			<string></string>
+			<string>ケーキ</string>
 			<key>name</key>
-			<string></string>
+			<string>Pierre Précieuse</string>
 			<key>latitude</key>
-			<string></string>
+			<string>35.17008</string>
 			<key>longitude</key>
-			<string></string>
+			<string>137.035256</string>
 			<key>address</key>
-			<string></string>
+			<string>愛知県長久手市杁ケ池1120</string>
 			<key>phone number</key>
-			<string></string>
+			<string>0561-61-7083</string>
 			<key>home page</key>
-			<string></string>
+			<string>http://tabelog.com/aichi/A2303/A230302/23000859/</string>
 			<key>regular holiday</key>
-			<string></string>
+			<string>毎週月曜日と毎月第１・３・５火曜（祝日の場合は翌日</string>
 			<key>business hours</key>
-			<string></string>
+			<string>10:00～19:00</string>
 		</dict>
 		<dict>
 			<key>genre</key>

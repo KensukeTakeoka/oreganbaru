@@ -10,7 +10,6 @@
 		D2968CEF1C8D62A400DA01E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */; };
 		D2968CF11C8D62A400DA01E7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */; };
 		D2968CF31C8D62A400DA01E7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */; };
-		D2968CF61C8D62A400DA01E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2968CF41C8D62A400DA01E7 /* Main.storyboard */; };
 		D2968CF81C8D62A400DA01E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2968CF71C8D62A400DA01E7 /* Assets.xcassets */; };
 		D2968CFB1C8D62A400DA01E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */; };
 		D2968D061C8D62A400DA01E7 /* ganbaruOreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2968D051C8D62A400DA01E7 /* ganbaruOreTests.swift */; };
@@ -21,6 +20,7 @@
 		D2C416471C900BA00058C98D /* secondnagoya.plist in Resources */ = {isa = PBXBuildFile; fileRef = D2C416461C900BA00058C98D /* secondnagoya.plist */; settings = {ASSET_TAGS = (); }; };
 		D2C651F41C97EF9A004583CD /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C651F61C97EFDD004583CD /* SecondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		D2C651F91C993183004583CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C651F71C993183004583CD /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +45,6 @@
 		D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		D2968CF51C8D62A400DA01E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2968CF71C8D62A400DA01E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2968CFA1C8D62A400DA01E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2968CFC1C8D62A400DA01E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		D2C416461C900BA00058C98D /* secondnagoya.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = secondnagoya.plist; sourceTree = "<group>"; };
 		D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
 		D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDetailViewController.swift; sourceTree = "<group>"; };
+		D2C651F81C993183004583CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +111,7 @@
 		D2968CED1C8D62A400DA01E7 /* ganbaruOre */ = {
 			isa = PBXGroup;
 			children = (
+				D2C651F71C993183004583CD /* Main.storyboard */,
 				D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */,
 				D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */,
 				D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */,
@@ -120,7 +121,6 @@
 				D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */,
 				D2C416441C900B7F0058C98D /* firstnagoya.plist */,
 				D2C416461C900BA00058C98D /* secondnagoya.plist */,
-				D2968CF41C8D62A400DA01E7 /* Main.storyboard */,
 				D2968CF71C8D62A400DA01E7 /* Assets.xcassets */,
 				D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */,
 				D2968CFC1C8D62A400DA01E7 /* Info.plist */,
@@ -250,9 +250,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2968CFB1C8D62A400DA01E7 /* LaunchScreen.storyboard in Resources */,
+				D2C651F91C993183004583CD /* Main.storyboard in Resources */,
 				D2968CF81C8D62A400DA01E7 /* Assets.xcassets in Resources */,
 				D2C416451C900B7F0058C98D /* firstnagoya.plist in Resources */,
-				D2968CF61C8D62A400DA01E7 /* Main.storyboard in Resources */,
 				D2C416471C900BA00058C98D /* secondnagoya.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -320,20 +320,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D2968CF41C8D62A400DA01E7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2968CF51C8D62A400DA01E7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2968CF91C8D62A400DA01E7 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				D2968CFA1C8D62A400DA01E7 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D2C651F71C993183004583CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2C651F81C993183004583CD /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
