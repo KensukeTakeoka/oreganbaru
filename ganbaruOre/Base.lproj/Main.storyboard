@@ -140,13 +140,17 @@ http://www.yahoo.co.jp/
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="q8M-jT-ZDr">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="q8M-jT-ZDr">
                                 <rect key="frame" x="0.0" y="68" width="320" height="451"/>
                                 <animations/>
                             </mapView>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIg-Ca-aM3">
-                                <rect key="frame" x="214" y="20" width="90" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIg-Ca-aM3">
+                                <rect key="frame" x="210" y="28" width="90" height="30"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Wxg-P3-hdi"/>
+                                    <constraint firstAttribute="width" constant="90" id="wRU-fN-UaZ"/>
+                                </constraints>
                                 <state key="normal" title="リスト表示へ"/>
                                 <connections>
                                     <action selector="secondBtnList:" destination="kEL-Pr-gb4" eventType="touchUpInside" id="HBf-BL-bxc"/>
@@ -158,10 +162,18 @@ http://www.yahoo.co.jp/
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="SIg-Ca-aM3" secondAttribute="trailing" id="2E5-a3-Ygp"/>
-                            <constraint firstItem="q8M-jT-ZDr" firstAttribute="top" secondItem="SIg-Ca-aM3" secondAttribute="bottom" constant="12" id="H8I-Dc-l4E"/>
+                            <constraint firstItem="SIg-Ca-aM3" firstAttribute="top" secondItem="62n-Nk-N2z" secondAttribute="bottom" constant="8" id="9ZP-jl-aAv"/>
+                            <constraint firstAttribute="trailing" secondItem="SIg-Ca-aM3" secondAttribute="trailing" constant="20" id="OYv-Qq-F2Q"/>
                             <constraint firstItem="SIg-Ca-aM3" firstAttribute="leading" secondItem="cbo-DQ-Cvc" secondAttribute="leading" constant="260" id="gGe-V8-x7Z"/>
                             <constraint firstItem="SIg-Ca-aM3" firstAttribute="top" secondItem="62n-Nk-N2z" secondAttribute="bottom" constant="8" id="vdl-g2-IAF"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="2E5-a3-Ygp"/>
+                                <exclude reference="gGe-V8-x7Z"/>
+                                <exclude reference="vdl-g2-IAF"/>
+                            </mask>
+                        </variation>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="uWS-XR-Ua5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
