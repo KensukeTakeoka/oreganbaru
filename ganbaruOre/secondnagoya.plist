@@ -15,13 +15,13 @@
 			<string>136.908325</string>
 			<key>address</key>
 			<string>愛知県名古屋市北区柳原2-20-13</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>不明</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230109/23044762/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>日曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>［月~木&amp;土］ 19:00～0:00（L.O.23:30）
 ［金］ 21:00～0:00（L.O.23:30）
 ※イベント出店などの都合により変更あります。詳しくはスムース食堂のFacebookで随時更新しております。</string>
@@ -37,13 +37,13 @@
 			<string>136.816426</string>
 			<key>address</key>
 			<string>愛知県一宮市森本4-6-12</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0586-58-7486</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://hangout-coffee.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>木曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00 - 23:00
 ※月曜〜水曜　20:00まで</string>
 		</dict>
@@ -58,13 +58,13 @@
 			<string>136.928207</string>
 			<key>address</key>
 			<string>愛知県名古屋市東区筒井3-26-27</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-935-8484</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.faldo.co.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:30～15:00(L.O.14:30)
 17:30～23:00(L.O.22:30)</string>
 		</dict>
@@ -81,13 +81,13 @@
 			<string>愛知県名古屋市緑区作の山町230番地 メゾン作の山1F
 愛知県名古屋市緑区作の山町230番地 メゾン作の山1F
 </string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-892-1110</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://homepage3.nifty.com/banraitei/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>第二日曜日・月曜日・火曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:30～14:00 (L.O.)
 18:00～22:00 (L.O.)
 11:30～14:00 (L.O.)
@@ -105,13 +105,13 @@
 			<string>136.908951</string>
 			<key>address</key>
 			<string>愛知県名古屋市東区東桜1-10-40</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-951-7800</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230103/23006831/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>月曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>[火～土] 12:00～24:00 [日・祝] 12:00～22:00</string>
 		</dict>
 		<dict>
@@ -126,13 +126,13 @@
 			<key>address</key>
 			<string>名古屋市中村区名駅1丁目1-4
 JRセントラルタワーズ 13F</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-586-0252</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://konan-nagoya.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00〜23:00（LO 22:30）</string>
 		</dict>
 		<dict>
@@ -146,13 +146,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.903003</string>
 			<key>address</key>
 			<string>愛知県名古屋市熱田区白鳥1-2-37</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-683-1333</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://kitica.me/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>月曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>火〜金 　11:30〜15:00(14:30l.o)　18:00〜23:00(22:00l.o)
 ランチ　14:30l.o
 土　　　11:30〜23:00(22:00l.o)
@@ -169,13 +169,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.951425</string>
 			<key>address</key>
 			<string>愛知県名古屋市千種区覚王山通9-14</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-762-2786</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230107/23048923/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>毎週火水曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:45～23:00(L.O.22:00)</string>
 		</dict>
 		<dict>
@@ -189,13 +189,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.950409</string>
 			<key>address</key>
 			<string>愛知県名古屋市瑞穂区上山町3-13</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>TEL：052-833-2888 FAX：052-833-2888</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.komeda.co.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休 　※年末年始は変更する場合がございます</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>06:30〜23:30</string>
 		</dict>
 		<dict>
@@ -209,13 +209,13 @@ JRセントラルタワーズ 13F</string>
 			<string>137.096307</string>
 			<key>address</key>
 			<string>愛知県西尾市吉良町宮崎弥五郎3-3</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>（0563）32-4222</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.taraso.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>open月～金：10:00、土日：9:00
 ■close月～金：日没1時間後、</string>
 		</dict>
@@ -230,14 +230,14 @@ JRセントラルタワーズ 13F</string>
 			<string>137.35977</string>
 			<key>address</key>
 			<string>愛知県豊橋市西赤沢字堂田392-5</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0532-87-4946</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2306/A230601/23051354/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>月曜日・第2火曜日・第4火曜日
 </string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>9:00～17:00</string>
 		</dict>
 		<dict>
@@ -251,13 +251,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.952063</string>
 			<key>address</key>
 			<string>愛知県大府市共和町6丁目262-1 </string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0562-74-0381</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.cafe-kaya.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>定休日　火曜日 と 第1月曜日 </string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>10:00～20:00（19:15） 　
 月曜のみ 10:00～18:00（17:30）</string>
 		</dict>
@@ -272,13 +272,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.927382</string>
 			<key>address</key>
 			<string>愛知県名古屋市東区葵3丁目17番43号</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-937-6695</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230106/23009742/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>日・祝</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00～21:30(L.O.21:00)</string>
 		</dict>
 		<dict>
@@ -292,13 +292,13 @@ JRセントラルタワーズ 13F</string>
 			<string>137.319692</string>
 			<key>address</key>
 			<string>愛知県豊田市足助町石橋34-6</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>090-4257-7240</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2305/A230501/23053376/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>火曜日・水曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>10:00～17:00</string>
 		</dict>
 		<dict>
@@ -312,13 +312,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.935887</string>
 			<key>address</key>
 			<string>愛知県名古屋市千種区今池1-12-10</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-733-7670</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.misen.ne.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>PM5:30～AM2:00</string>
 		</dict>
 		<dict>
@@ -332,13 +332,13 @@ JRセントラルタワーズ 13F</string>
 			<string>137.12611</string>
 			<key>address</key>
 			<string>愛知県西尾市寺部町笠外186-36</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0563-62-6123</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.cafe-ocean.com/cafe/info/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11時~日没30分後</string>
 		</dict>
 		<dict>
@@ -352,13 +352,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.90387</string>
 			<key>address</key>
 			<string>愛知県名古屋市中区栄3-12-32 レジャーセンタービル 1F</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-243-8408</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230103/23002974/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>日曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>17:00～翌3:00（L.O.2:15）</string>
 		</dict>
 		<dict>
@@ -372,13 +372,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.869738</string>
 			<key>address</key>
 			<string>名古屋市港区川西通3-9</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-653-1587</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://ra-menfuku.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>火曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00～11:00</string>
 		</dict>
 		<dict>
@@ -392,13 +392,13 @@ JRセントラルタワーズ 13F</string>
 			<string>137.163286</string>
 			<key>address</key>
 			<string>愛知県岡崎市康生通西1-9</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0564-23-782</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2305/A230502/23002513/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>毎週月曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>［火・水・木・金・日］
 18:00～02:00
 ［土］</string>
@@ -414,13 +414,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.905818</string>
 			<key>address</key>
 			<string>愛知県名古屋市中区栄3-33-29</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-228-7221</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230103/23043640/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>水曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>月～金
 11:30～17:00 (L.O.16:00)
 18:00〜22:00 (L.O.21:00)
@@ -438,13 +438,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.91127</string>
 			<key>address</key>
 			<string>愛知県名古屋市中区栄5-19-27 河合ビル 1F</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-252-5989</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230103/23044641/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>日曜、月曜</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>[火〜金]
 12:00～15:00(LO14:30)
 17:00~22:00(LO21:30)
@@ -462,13 +462,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.904996</string>
 			<key>address</key>
 			<string>愛知県名古屋市中区大須3-32-12</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-83-9786</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230105/23049877/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不定休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00～18:00</string>
 		</dict>
 		<dict>
@@ -482,13 +482,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.907223</string>
 			<key>address</key>
 			<string>名古屋市中区大須４-１-１２</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>090-7694-6678 (岡部)</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://gorico.me/?p=25</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>日曜日＋α</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>16:00~24:00 (foodラストオーダー23:00)</string>
 		</dict>
 		<dict>
@@ -502,13 +502,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.905911</string>
 			<key>address</key>
 			<string>名古屋市北区金城町4-41-6</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-916-1010</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://teppen.hp4u.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>昼 / 11:00～14:45 (L.O.14:45)
 夜 / 18:00～23:15 (L.O.23:15)</string>
 		</dict>
@@ -523,13 +523,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.939076</string>
 			<key>address</key>
 			<string>愛知県犬山市大字犬山字西古券92</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-54-3473</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2303/A230301/23049886/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>火曜日・水曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00～17:00</string>
 		</dict>
 		<dict>
@@ -545,13 +545,13 @@ JRセントラルタワーズ 13F</string>
 			<string>
 
 愛知県北名古屋市九之坪長堀56-1</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-48-1662（予約可）</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.tamurohonmaru.com/menu/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>月曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:11～14:30（オーダーストップ）
 17:11～21:30（オーダーストップ）</string>
 		</dict>
@@ -566,13 +566,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.939076</string>
 			<key>address</key>
 			<string>愛知県犬山市大字犬山字西古券92</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-54-3473</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2303/A230301/23049886/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>火曜日・水曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00～17:00</string>
 		</dict>
 		<dict>
@@ -586,13 +586,13 @@ JRセントラルタワーズ 13F</string>
 			<string>137.035256</string>
 			<key>address</key>
 			<string>愛知県長久手市杁ケ池1120</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0561-61-7083</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2303/A230302/23000859/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>毎週月曜日と毎月第１・３・５火曜（祝日の場合は翌日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>10:00～19:00</string>
 		</dict>
 		<dict>
@@ -606,13 +606,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.998147</string>
 			<key>address</key>
 			<string>名古屋市天白区 中平 1-501</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-848-3433</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tribal-arts.net/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>水曜定休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00-21:00</string>
 		</dict>
 		<dict>
@@ -626,13 +626,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.92834</string>
 			<key>address</key>
 			<string>愛知県名古屋市東区徳川町201</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-937-9228</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230110/23000971/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>水曜定休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00-21:00</string>
 		</dict>
 		<dict>
@@ -646,13 +646,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.952281</string>
 			<key>address</key>
 			<string>愛知県春日井市如意申町7-12-5</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-32-1331</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>https://www.facebook.com/taiyoutaiyoutaiyou</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>木曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>12~20(L.o19)</string>
 		</dict>
 		<dict>
@@ -666,13 +666,13 @@ JRセントラルタワーズ 13F</string>
 			<string>136.912951</string>
 			<key>address</key>
 			<string>愛知県名古屋市中区栄5-6-33</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-243-7525</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://decibel8.com/shop-info.htm</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>月曜・火曜</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>16~23</string>
 		</dict>
 	</array>

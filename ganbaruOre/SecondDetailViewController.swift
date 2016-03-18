@@ -21,13 +21,6 @@ class SecondDetailViewController: UIViewController {
         super.viewDidLoad()
         print(scSelectedIndex)
         
-        
-//        var address = "東京都"
-//        キーボードを無くすコード
-        secondText.editable = false
-        
-        secondText.text = "住所:\n\(address)連絡先:\n\(phone number)ホームページ:\n\(home page)定休日:\n\(regular holiday)営業時間:\n\(business hours)"
-        
         //ファイルのパスを取得
         var filePath = NSBundle.mainBundle().pathForResource("secondnagoya", ofType: "plist")
         
@@ -43,6 +36,18 @@ class SecondDetailViewController: UIViewController {
             osusumeshop.append(data as NSDictionary)
             
         }
+//        plistからデータ取得
+        var address = osusumeshop[scSelectedIndex]["address"] as! String
+        var phone = osusumeshop[scSelectedIndex]["phone"] as! String
+        var hp = osusumeshop[scSelectedIndex]["hp"] as! String
+        var holiday = osusumeshop[scSelectedIndex]["holiday"] as! String
+        var hours = osusumeshop[scSelectedIndex]["hours"] as! String
+//        キーボードを無くすコード
+        secondText.editable = false
+        
+        secondText.text = "住所:\n\(address)連絡先:\n\(phone)ホームページ:\n\(hp)定休日:\n\(holiday)営業時間:\n\(hours)"
+        
+        
         var recomendShop = osusumeshop[scSelectedIndex]["name"] as! String
         print(recomendShop)
         

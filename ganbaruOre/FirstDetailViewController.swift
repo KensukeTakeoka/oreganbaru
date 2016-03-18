@@ -20,13 +20,6 @@ class FirstDetailViewController: UIViewController {
        
         super.viewDidLoad()
         print(scSelectedIndex)
-//        文字を出なくする
-//        secondText.editable = false
-        //        キーボードを無くすコード
-        firstText.editable = false
-        
-        firstText.text = "住所:\n\(address)連絡先:\n\(phone number)ホームページ:\n\(home page)定休日:\n\(regular holiday)営業時間:\n\(business hours)"
-        
         //ファイルのパスを取得
         var filePath = NSBundle.mainBundle().pathForResource("firstnagoya", ofType: "plist")
         
@@ -42,12 +35,33 @@ class FirstDetailViewController: UIViewController {
             nagoyafood.append(data as NSDictionary)
             
         }
+
         var storeName = nagoyafood[scSelectedIndex]["name"] as! String
         print(storeName)
         
         var longitude = atof(nagoyafood[scSelectedIndex]["longitude"] as! String)
         var latitude = atof(nagoyafood[scSelectedIndex]["latitude"] as! String)
         
+        //        plistから情報を取り出す
+        var address = nagoyafood[scSelectedIndex]["address"] as! String
+
+        var phone = nagoyafood[scSelectedIndex]["phone"] as! String
+
+        var hp = nagoyafood[scSelectedIndex]["hp"] as! String
+
+
+        var holiday = nagoyafood[scSelectedIndex]["holiday"] as! String
+
+        var hours = nagoyafood[scSelectedIndex]["hours"] as! String
+
+//        文字を出なくする
+//        secondText.editable = false
+        
+        //        キーボードを無くすコード
+        firstText.editable = false
+        
+        firstText.text = "住所:\n\(address)連絡先:\n\(phone)ホームページ:\n\(hp)定休日:\n\(holiday)営業時間:\n\(hours)"
+       
         
         
         

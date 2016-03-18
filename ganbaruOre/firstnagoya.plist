@@ -15,13 +15,13 @@
 			<string>136.913128</string>
 			<key>address</key>
 			<string>名古屋市中区栄5-6-4 栄能楽ビル1F</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>不明</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://kalakutadisco.tumblr.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -35,14 +35,14 @@
 			<string>136.909879</string>
 			<key>address</key>
 			<string>愛知県名古屋市中区千代田4-14-20</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-331-3232
  052-331-3231</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://circles-jp.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>木曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>10:00～20:00(月～土)
 12:00～19:00(日・祝)</string>
 		</dict>
@@ -57,13 +57,13 @@
 			<string>137.276268</string>
 			<key>address</key>
 			<string> 愛知県蒲郡市海陽町2丁目39番</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>不明</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://mori-michi-ichiba.info/%E3%80%8Ceatbeatnews1/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -77,13 +77,13 @@
 			<string>137.086506</string>
 			<key>address</key>
 			<string>愛知県長久手市茨ケ廻間乙1533-1</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0561-64-1130</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://moricoro-park.com/shisetsu/satsukitomei/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>平日：10:00〜16:30 ／ 土日祝：9:30～16:30（入館は16:00まで）</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string></string>
 		</dict>
 		<dict>
@@ -97,13 +97,13 @@
 			<string>136.835944</string>
 			<key>address</key>
 			<string>愛知県常滑市鯉江本町5-168-2</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>TEL：0569-34-8888　FAX：0569-34-8880</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>TEL：0569-34-8888　FAX：0569-34-8880</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休（年末年始を除く）</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>9:00〜17:30</string>
 		</dict>
 		<dict>
@@ -117,13 +117,13 @@
 			<string>136.98652</string>
 			<key>address</key>
 			<string>愛知県名古屋市天白区植田1‐1705</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052‐804‐3420</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.hair-ici.com/salon</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>月曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>火～土 : am10:00~
 パーマ・カラー pm6:00迄
 カット pm7:00迄 
@@ -143,13 +143,13 @@
 			<string>136.902857</string>
 			<key>address</key>
 			<string>名古屋市中区金山4-6-22 コスモビル 1</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-321-5223</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://tabelog.com/aichi/A2301/A230105/23000915/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>7:30～23:00(日曜、月曜、祝日は22:00)</string>
 		</dict>
 		<dict>
@@ -163,13 +163,13 @@
 			<string>136.954271</string>
 			<key>address</key>
 			<string>愛知県名古屋市緑区大高町字高山1-1</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-253-5936</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://freedom.radcreation.jp/areamap/index.html</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -184,14 +184,14 @@
 			<key>address</key>
 			<string>愛知県名古屋市中区栄二丁目17番1号
 芸術と科学の杜・白川公園内</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>TEL: 052-201-4486
 FAX: 052-203-0788</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.ncsm.city.nagoya.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -205,15 +205,15 @@ FAX: 052-203-0788</string>
 			<string>137.01878</string>
 			<key>address</key>
 			<string>愛知県犬山市今井成沢90-48</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-62-5611</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.littleworld.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>7月第2週目の月〜金曜
 12〜2月の水・木曜日（但し、冬休み期間中は開館）
 12月31日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>3月〜11月 9：30〜17：00
 12月〜2月 10：00〜16：00
 ※1月、2月の土日祝は16:30迄</string>
@@ -229,13 +229,13 @@ FAX: 052-203-0788</string>
 			<string>136.920839</string>
 			<key>address</key>
 			<string>名古屋市中区新栄2丁目1-9 </string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-737-7739</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.liveandloungevio.com/info.html</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>月曜日 / 火曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>平日 / 日曜 pm6:00〜am2:00
 金曜 / 土曜 pm8:00〜am5:00
 ライブ等イベント時は変更あり</string>
@@ -251,13 +251,13 @@ FAX: 052-203-0788</string>
 			<string>137.159139</string>
 			<key>address</key>
 			<string>岡崎市康生通西4丁目71番地</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0564-23-3158</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.jelly-fish.org/rhizome-library/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -271,14 +271,14 @@ FAX: 052-203-0788</string>
 			<string>137.009283</string>
 			<key>address</key>
 			<string>愛知県春日井市出川町2169-6</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>電話　：　　０５６８－５１－８８３７
 ＦＡＸ　：　　０５６８－５２－９７４０</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://restyle-net.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>火曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11：00～19：00</string>
 		</dict>
 		<dict>
@@ -292,13 +292,13 @@ FAX: 052-203-0788</string>
 			<string>137.168886</string>
 			<key>address</key>
 			<string>愛知県豊田市千石町6丁目</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>不明</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://soulbeatasia.com/artist/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -312,13 +312,13 @@ FAX: 052-203-0788</string>
 			<string>136.881251</string>
 			<key>address</key>
 			<string> 愛知県名古屋市中川区百船町5-6</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-351-5059</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.magic-children.com/store/store-in-factory</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>水曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>12:00 – 20:00</string>
 		</dict>
 		<dict>
@@ -332,17 +332,17 @@ FAX: 052-203-0788</string>
 			<string>136.987817</string>
 			<key>address</key>
 			<string>愛知県犬山市字内山１</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-67-0314</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.meijimura.com/guide/open/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>3月～7月、9月、10月	9:30～17:00
 8月	10:00～17:00
 11月	9:30～16:00
 12月～2月	
 10:00～16:00</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>8月4日、18日、25日　（平成27年）
 12月31日
 12月、1月、2月の毎週月曜日（祝日及び正月期間は開村）
@@ -361,13 +361,13 @@ FAX: 052-203-0788</string>
 			<string>136.96869</string>
 			<key>address</key>
 			<string>名古屋市千種区猫洞通3-21 KRAビル1F</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>TEL&amp;FAX 052-783-8200</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.sahan.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00 - 19:00</string>
 		</dict>
 		<dict>
@@ -381,13 +381,13 @@ FAX: 052-203-0788</string>
 			<string>136.904118</string>
 			<key>address</key>
 			<string>愛知県 名古屋市中区栄3-23-12ハイライク栄ハイツ3F</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-253-5480</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.the-apartment-store.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>12:00 – 21:00 </string>
 		</dict>
 		<dict>
@@ -401,13 +401,13 @@ FAX: 052-203-0788</string>
 			<string>136.944537</string>
 			<key>address</key>
 			<string>愛知県春日井市宮町2-3-6</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0568-36-2123</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://airage.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>13:00～21:00</string>
 		</dict>
 		<dict>
@@ -421,13 +421,13 @@ FAX: 052-203-0788</string>
 			<string>136.907754</string>
 			<key>address</key>
 			<string>愛知県名古屋市中区栄3丁目32-7</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-264-7338</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.pelicanpluscafe.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>11:00〜20:00</string>
 		</dict>
 		<dict>
@@ -441,13 +441,13 @@ FAX: 052-203-0788</string>
 			<string>137.151805</string>
 			<key>address</key>
 			<string>愛知県豊田市小坂本町8丁目5番地1</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0565-34-6610</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.museum.toyota.aichi.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>休館日：毎週月曜日（祝日は除く）</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>開館時間：10:00～17:30
 （入場は17:00まで）
 ただし10月10日[土]-12日[月]は20:00まで開館(入場は19:30まで)</string>
@@ -464,13 +464,13 @@ FAX: 052-203-0788</string>
 			<key>address</key>
 			<string>愛知県日進市岩藤町一ノ廻間
 932番地31</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0561-72-0006</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://gosikien.nobody.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>年中無休</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -484,13 +484,13 @@ FAX: 052-203-0788</string>
 			<string>136.941423</string>
 			<key>address</key>
 			<string>愛知県小牧市田県町152</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>電話(0568)76-2906 FAX(0568)76-2099</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.tagatajinja.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string></string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string></string>
 		</dict>
 		<dict>
@@ -504,13 +504,13 @@ FAX: 052-203-0788</string>
 			<string>136.906287</string>
 			<key>address</key>
 			<string>愛知県東海市荒尾町西廻間2番地の1</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-689-1600</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.city.tokai.aichi.jp/4337.htm</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 		<dict>
@@ -524,13 +524,13 @@ FAX: 052-203-0788</string>
 			<string>136.787957</string>
 			<key>address</key>
 			<string>愛知県一宮市大和町苅安賀字山王29</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>0586-43-1848</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://treepeople-atelier29.com/aboutus/index.html</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>火曜日</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>12:00-20:00</string>
 		</dict>
 		<dict>
@@ -544,13 +544,13 @@ FAX: 052-203-0788</string>
 			<string>136.822884</string>
 			<key>address</key>
 			<string>愛知県あま市甚目寺東門前24</string>
-			<key>phone number</key>
+			<key>phoner</key>
 			<string>052-442-3076</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://inuuniqvillage.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string></string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string></string>
 		</dict>
 		<dict>
@@ -564,13 +564,13 @@ FAX: 052-203-0788</string>
 			<string>136.902994</string>
 			<key>address</key>
 			<string>名古屋市中区橘2-8-55</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>０５６７－５８－５７３３</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://inuuniqvillage.com/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string></string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string></string>
 		</dict>
 		<dict>
@@ -584,13 +584,13 @@ FAX: 052-203-0788</string>
 			<string>136.935022</string>
 			<key>address</key>
 			<string>愛知県名古屋市千種区今池1-6-13今池スタービル2</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>052-733-3959</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://cineaste.jp/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string></string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string></string>
 		</dict>
 		<dict>
@@ -604,13 +604,13 @@ FAX: 052-203-0788</string>
 			<string>136.878949</string>
 			<key>address</key>
 			<string>愛知県名古屋市中村区椿町8-12　アートビル1F</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>TEL: 052-452-6036 FAX: 052-452-5572</string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www.cinemaskhole.co.jp/cinema/html/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string></string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string></string>
 		</dict>
 		<dict>
@@ -624,14 +624,14 @@ FAX: 052-203-0788</string>
 			<string>136.920903</string>
 			<key>address</key>
 			<string>名古屋市中区千代田5丁目12-7</string>
-			<key>phone number</key>
+			<key>phone</key>
 			<string>PHS 070-5257-1324
 TEL (052)251-0324 </string>
-			<key>home page</key>
+			<key>hp</key>
 			<string>http://www2.odn.ne.jp/kdjapon/</string>
-			<key>regular holiday</key>
+			<key>holiday</key>
 			<string>不明</string>
-			<key>business hours</key>
+			<key>hours</key>
 			<string>不明</string>
 		</dict>
 	</array>
