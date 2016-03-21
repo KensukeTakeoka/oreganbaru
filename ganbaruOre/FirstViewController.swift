@@ -70,10 +70,10 @@ class FirstViewController: UIViewController,UITableViewDataSource,UITableViewDel
            cell.textLabel?.text = "\(name)"
             
             
-            cell.textLabel?.textColor = UIColor.redColor()
+            cell.textLabel?.textColor = UIColor.greenColor()
             
             cell.textLabel!.font = UIFont.systemFontOfSize(20)
-            cell.accessoryType =  .Checkmark
+            cell.accessoryType =  .DisclosureIndicator
             
             
             return cell

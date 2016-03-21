@@ -48,7 +48,7 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
     }
     //    行数
     func tableView(tableView :UITableView, numberOfRowsInSection section: Int) ->Int{
-        return 10
+        return osusumeshop.count
         
     }
     //    表示するセルの中身
@@ -66,10 +66,10 @@ class SecondViewController: UIViewController,UITableViewDataSource,UITableViewDe
             cell.textLabel?.text = "\(name)"
             
             
-            cell.textLabel?.textColor = UIColor.redColor()
+            cell.textLabel?.textColor = UIColor.greenColor()
             
             cell.textLabel!.font = UIFont.systemFontOfSize(20)
-            cell.accessoryType =  .Checkmark
+            cell.accessoryType =  .DisclosureIndicator
             
             
             return cell
