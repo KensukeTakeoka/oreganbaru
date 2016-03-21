@@ -2,7 +2,6 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First View Controller-->
@@ -17,8 +16,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MuO-hw-Umq">
-                                <rect key="frame" x="0.0" y="125" width="375" height="542"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MuO-hw-Umq">
+                                <rect key="frame" x="0.0" y="112" width="375" height="555"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
@@ -42,33 +41,15 @@
                                 </connections>
                             </tableView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Se4-td-cne">
-                                <rect key="frame" x="210" y="72" width="145" height="30"/>
+                                <rect key="frame" x="270" y="72" width="85" height="30"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="145" id="7WB-CW-Chp"/>
-                                    <constraint firstAttribute="width" constant="90" id="BOU-lT-q2J"/>
-                                    <constraint firstAttribute="width" constant="75" id="Oh3-72-DTe"/>
-                                    <constraint firstAttribute="height" constant="30" id="gjc-29-9g8"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="imU-6I-e92"/>
-                                    <constraint firstAttribute="height" constant="30" id="r3J-ys-N5F"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="xuP-l6-qHz"/>
-                                    <constraint firstAttribute="height" constant="30" id="z3e-bp-UqF"/>
-                                    <constraint firstAttribute="width" constant="75" id="zXU-2l-h0V"/>
+                                    <constraint firstAttribute="width" constant="85" id="bNz-37-gGL"/>
+                                    <constraint firstAttribute="height" constant="30" id="jl4-91-IZE"/>
                                 </constraints>
                                 <state key="normal" title="地図表示へ">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="BOU-lT-q2J"/>
-                                        <exclude reference="Oh3-72-DTe"/>
-                                        <exclude reference="gjc-29-9g8"/>
-                                        <exclude reference="imU-6I-e92"/>
-                                        <exclude reference="xuP-l6-qHz"/>
-                                        <exclude reference="z3e-bp-UqF"/>
-                                        <exclude reference="zXU-2l-h0V"/>
-                                    </mask>
-                                </variation>
                                 <connections>
                                     <action selector="returnBtn:" destination="9pv-A4-QxB" eventType="touchUpInside" id="5eN-Mw-gHZ"/>
                                 </connections>
@@ -77,14 +58,12 @@
                         <animations/>
                         <color key="backgroundColor" red="0.38823529410000002" green="0.90588235289999997" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="MuO-hw-Umq" secondAttribute="trailing" id="0kz-hf-gct"/>
-                            <constraint firstItem="Se4-td-cne" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" id="IC1-cN-a2u"/>
-                            <constraint firstItem="4ug-Mw-9AY" firstAttribute="top" secondItem="MuO-hw-Umq" secondAttribute="bottom" id="KzJ-44-cDT"/>
-                            <constraint firstItem="MuO-hw-Umq" firstAttribute="top" secondItem="Se4-td-cne" secondAttribute="bottom" constant="23" id="QL6-AU-63d"/>
-                            <constraint firstAttribute="trailing" secondItem="MuO-hw-Umq" secondAttribute="trailing" id="hkH-oI-wvc"/>
-                            <constraint firstItem="MuO-hw-Umq" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="jET-4t-zje"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="Se4-td-cne" secondAttribute="trailing" constant="4" id="sW0-rx-vyB"/>
-                            <constraint firstItem="MuO-hw-Umq" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="sZ4-jA-awZ"/>
+                            <constraint firstItem="Se4-td-cne" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="8" id="0bQ-GO-q1K"/>
+                            <constraint firstAttribute="trailing" secondItem="MuO-hw-Umq" secondAttribute="trailing" id="GZq-jn-ooN"/>
+                            <constraint firstAttribute="trailing" secondItem="Se4-td-cne" secondAttribute="trailing" constant="20" id="ODz-m5-Jk9"/>
+                            <constraint firstItem="MuO-hw-Umq" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="RpU-dW-mJE"/>
+                            <constraint firstItem="MuO-hw-Umq" firstAttribute="top" secondItem="Se4-td-cne" secondAttribute="bottom" constant="10" id="fSi-yK-uRb"/>
+                            <constraint firstAttribute="bottom" secondItem="MuO-hw-Umq" secondAttribute="bottom" id="z0d-BV-057"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="1X5-Wx-P4a"/>
@@ -119,11 +98,11 @@
                                     <segue destination="78c-3a-vNd" kind="show" id="P2b-Nm-c9T"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-OC-oLk">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-OC-oLk">
                                 <rect key="frame" x="0.0" y="64" width="320" height="229"/>
                                 <animations/>
                             </mapView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
                                 <rect key="frame" x="0.0" y="301" width="320" height="267"/>
                                 <animations/>
                                 <constraints>
@@ -145,6 +124,7 @@ http://www.yahoo.co.jp/
 12時まで</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <animations/>
@@ -172,7 +152,7 @@ http://www.yahoo.co.jp/
             </objects>
             <point key="canvasLocation" x="2130" y="-879"/>
         </scene>
-        <!--Second Osusume View Controller-->
+        <!--お食事-->
         <scene sceneID="98i-dJ-YFd">
             <objects>
                 <viewController id="kEL-Pr-gb4" customClass="SecondOsusumeViewController" customModule="ganbaruOre" customModuleProvider="target" sceneMemberID="viewController">
@@ -197,15 +177,24 @@ http://www.yahoo.co.jp/
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="eNL-s9-lOL"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="qED-5K-yHD"/>
                                 </constraints>
-                                <state key="normal" title="リスト表示へ"/>
+                                <state key="normal" title="リスト表示へ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="secondBtnList:" destination="kEL-Pr-gb4" eventType="touchUpInside" id="HBf-BL-bxc"/>
                                     <segue destination="P6j-Ea-N7g" kind="show" id="6gx-1c-Rkv"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お食事" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc7-Yx-9zN">
+                                <rect key="frame" x="5" y="20" width="144" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.38823529410000002" green="0.90588235289999997" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="q8M-jT-ZDr" firstAttribute="top" secondItem="SIg-Ca-aM3" secondAttribute="bottom" constant="10" id="AUk-wl-pmh"/>
                             <constraint firstItem="SIg-Ca-aM3" firstAttribute="top" secondItem="62n-Nk-N2z" secondAttribute="bottom" constant="8" id="Eqz-aq-ECs"/>
@@ -216,7 +205,7 @@ http://www.yahoo.co.jp/
                             <constraint firstItem="q8M-jT-ZDr" firstAttribute="leading" secondItem="cbo-DQ-Cvc" secondAttribute="leading" id="yTB-VQ-wlr"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="favorites" id="uWS-XR-Ua5"/>
+                    <tabBarItem key="tabBarItem" title="お食事" image="donburi.png" id="uWS-XR-Ua5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="secondBtnList" destination="SIg-Ca-aM3" id="xDG-VK-v3f"/>
@@ -239,34 +228,6 @@ http://www.yahoo.co.jp/
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVX-jT-pHi">
-                                <rect key="frame" x="210" y="72" width="145" height="30"/>
-                                <animations/>
-                                <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="75" id="F3U-TG-Rga"/>
-                                    <constraint firstAttribute="width" constant="75" id="G5C-D5-ZPN"/>
-                                    <constraint firstAttribute="width" constant="90" id="bd9-DJ-S8c"/>
-                                    <constraint firstAttribute="width" constant="145" id="gCG-VX-3OZ"/>
-                                    <constraint firstAttribute="height" constant="30" id="mS6-IZ-KVh"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="sgd-r8-rDy"/>
-                                    <constraint firstAttribute="height" constant="30" id="zu8-QC-Nm5"/>
-                                </constraints>
-                                <state key="normal" title="地図表示へ">
-                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                                </state>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="F3U-TG-Rga"/>
-                                        <exclude reference="G5C-D5-ZPN"/>
-                                        <exclude reference="bd9-DJ-S8c"/>
-                                        <exclude reference="sgd-r8-rDy"/>
-                                        <exclude reference="zu8-QC-Nm5"/>
-                                    </mask>
-                                </variation>
-                                <connections>
-                                    <action selector="secondRtnBtn:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5b9-Ub-hsQ"/>
-                                </connections>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="9rw-5N-HDl">
                                 <rect key="frame" x="0.0" y="112" width="375" height="555"/>
                                 <animations/>
@@ -291,16 +252,30 @@ http://www.yahoo.co.jp/
                                     <outlet property="delegate" destination="8rJ-Kc-sve" id="Bkn-M8-VJ0"/>
                                 </connections>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oVX-jT-pHi">
+                                <rect key="frame" x="264" y="72" width="91" height="30"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="MDD-KE-r1N"/>
+                                    <constraint firstAttribute="width" constant="91" id="VjR-xa-frJ"/>
+                                </constraints>
+                                <state key="normal" title="地図表示へ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="secondRtnBtn:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5b9-Ub-hsQ"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.38823529411764707" green="0.90588235294117647" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="9rw-5N-HDl" firstAttribute="top" secondItem="oVX-jT-pHi" secondAttribute="bottom" constant="10" id="100-SA-ekv"/>
-                            <constraint firstAttribute="trailing" secondItem="9rw-5N-HDl" secondAttribute="trailing" id="3WM-78-Qik"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="oVX-jT-pHi" secondAttribute="trailing" constant="4" id="HPA-F0-oDV"/>
-                            <constraint firstItem="oVX-jT-pHi" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="bUC-JD-pjP"/>
-                            <constraint firstAttribute="bottom" secondItem="9rw-5N-HDl" secondAttribute="bottom" id="exh-s0-QMS"/>
-                            <constraint firstItem="9rw-5N-HDl" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="mBV-v6-IvQ"/>
+                            <constraint firstAttribute="trailing" secondItem="9rw-5N-HDl" secondAttribute="trailing" id="DuC-Fz-nzE"/>
+                            <constraint firstItem="oVX-jT-pHi" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="Z3l-Fi-W5A"/>
+                            <constraint firstItem="9rw-5N-HDl" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="bVJ-I9-kgZ"/>
+                            <constraint firstAttribute="bottom" secondItem="9rw-5N-HDl" secondAttribute="bottom" id="hYe-s4-SmO"/>
+                            <constraint firstAttribute="trailing" secondItem="oVX-jT-pHi" secondAttribute="trailing" constant="20" id="qDf-XP-vJM"/>
+                            <constraint firstItem="9rw-5N-HDl" firstAttribute="top" secondItem="oVX-jT-pHi" secondAttribute="bottom" constant="10" id="t1X-yd-E2Q"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n7z-Kj-zGq"/>
@@ -357,6 +332,7 @@ http://www.yahoo.co.jp/
 12時まで</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
                             </textView>
                         </subviews>
                         <animations/>
@@ -403,7 +379,7 @@ http://www.yahoo.co.jp/
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
-        <!--Firstfood View Controller-->
+        <!--おすすめ-->
         <scene sceneID="va2-OP-hFX">
             <objects>
                 <viewController id="zdc-wh-eam" customClass="FirstfoodViewController" customModule="ganbaruOre" customModuleProvider="target" sceneMemberID="viewController">
@@ -416,52 +392,45 @@ http://www.yahoo.co.jp/
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Ys-7n-Ocl">
-                                <rect key="frame" x="0.0" y="81" width="320" height="487"/>
+                                <rect key="frame" x="0.0" y="68" width="320" height="500"/>
                                 <animations/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zZ8-1I-BYS">
                                 <rect key="frame" x="210" y="28" width="90" height="30"/>
                                 <animations/>
                                 <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="1Pl-KG-BlQ"/>
-                                    <constraint firstAttribute="height" constant="30" id="1VF-hg-s2Z"/>
-                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="90" id="BbD-Yc-HOf"/>
                                     <constraint firstAttribute="height" constant="30" id="OBs-GI-Sqy"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="Wms-Nj-qs5"/>
                                     <constraint firstAttribute="width" constant="90" id="d7p-JP-52k"/>
-                                    <constraint firstAttribute="width" constant="75" id="fRR-cO-anW"/>
-                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="z9r-Ml-1Hu"/>
                                 </constraints>
-                                <state key="normal" title="リスト表示へ"/>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="1Pl-KG-BlQ"/>
-                                        <exclude reference="1VF-hg-s2Z"/>
-                                        <exclude reference="BbD-Yc-HOf"/>
-                                        <exclude reference="Wms-Nj-qs5"/>
-                                        <exclude reference="fRR-cO-anW"/>
-                                        <exclude reference="z9r-Ml-1Hu"/>
-                                    </mask>
-                                </variation>
+                                <state key="normal" title="リスト表示へ">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="firstFoodsBtn:" destination="zdc-wh-eam" eventType="touchUpInside" id="T0Q-8T-EYm"/>
                                     <segue destination="78c-3a-vNd" kind="show" id="H7J-I4-lDh"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="おすすめ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Reb-rl-6Ay">
+                                <rect key="frame" x="3" y="22" width="144" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.38823529410000002" green="0.90588235289999997" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="zZ8-1I-BYS" firstAttribute="leading" secondItem="VOf-Yd-5Hi" secondAttribute="leading" constant="210" id="3Oe-g4-ghr"/>
                             <constraint firstAttribute="bottom" secondItem="7Ys-7n-Ocl" secondAttribute="bottom" id="7YO-9S-CHN"/>
                             <constraint firstItem="zZ8-1I-BYS" firstAttribute="top" secondItem="Fft-ad-zNg" secondAttribute="bottom" constant="8" id="9Fr-KX-Kg9"/>
+                            <constraint firstItem="7Ys-7n-Ocl" firstAttribute="top" secondItem="zZ8-1I-BYS" secondAttribute="bottom" constant="10" id="IvD-K4-vuO"/>
                             <constraint firstAttribute="trailing" secondItem="7Ys-7n-Ocl" secondAttribute="trailing" id="Pkf-dN-oXH"/>
                             <constraint firstAttribute="trailing" secondItem="zZ8-1I-BYS" secondAttribute="trailing" constant="20" id="Urj-NG-L0n"/>
-                            <constraint firstItem="7Ys-7n-Ocl" firstAttribute="top" secondItem="zZ8-1I-BYS" secondAttribute="bottom" constant="23" id="a1h-o7-04G"/>
                             <constraint firstItem="7Ys-7n-Ocl" firstAttribute="leading" secondItem="VOf-Yd-5Hi" secondAttribute="leading" id="zqR-Lo-aaj"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" systemItem="topRated" id="DVc-2Q-Jq3"/>
+                    <tabBarItem key="tabBarItem" title="おすすめ" image="recommend.png" id="DVc-2Q-Jq3"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
                         <outlet property="firstFoodBtn" destination="zZ8-1I-BYS" id="WKc-zE-puv"/>
@@ -513,7 +482,11 @@ http://www.yahoo.co.jp/
             <point key="canvasLocation" x="1196" y="20"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="donburi.png" width="44" height="44"/>
+        <image name="recommend.png" width="44" height="44"/>
+    </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="H7J-I4-lDh"/>
+        <segue reference="P2b-Nm-c9T"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -21,6 +21,9 @@
 		D2C651F41C97EF9A004583CD /* FirstDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C651F61C97EFDD004583CD /* SecondDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		D2C651F91C993183004583CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C651F71C993183004583CD /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		D2C651FB1CA0599F004583CD /*   food.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C651FA1CA0599F004583CD /*   food.png */; settings = {ASSET_TAGS = (); }; };
+		D2C651FF1CA05AC0004583CD /* recommend.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C651FE1CA05AC0004583CD /* recommend.png */; settings = {ASSET_TAGS = (); }; };
+		D2C652011CA05F64004583CD /* donburi.png in Resources */ = {isa = PBXBuildFile; fileRef = D2C652001CA05F64004583CD /* donburi.png */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,9 @@
 		D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstDetailViewController.swift; sourceTree = "<group>"; };
 		D2C651F51C97EFDD004583CD /* SecondDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondDetailViewController.swift; sourceTree = "<group>"; };
 		D2C651F81C993183004583CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D2C651FA1CA0599F004583CD /*   food.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "  food.png"; sourceTree = "<group>"; };
+		D2C651FE1CA05AC0004583CD /* recommend.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recommend.png; sourceTree = "<group>"; };
+		D2C652001CA05F64004583CD /* donburi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donburi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,10 +117,13 @@
 		D2968CED1C8D62A400DA01E7 /* ganbaruOre */ = {
 			isa = PBXGroup;
 			children = (
+				D2C652001CA05F64004583CD /* donburi.png */,
+				D2C651FA1CA0599F004583CD /*   food.png */,
 				D2C651F71C993183004583CD /* Main.storyboard */,
 				D2968CEE1C8D62A400DA01E7 /* AppDelegate.swift */,
 				D2C4163C1C8EAC130058C98D /* FirstfoodViewController.swift */,
 				D2968CF01C8D62A400DA01E7 /* FirstViewController.swift */,
+				D2C651FE1CA05AC0004583CD /* recommend.png */,
 				D2C651F31C97EF9A004583CD /* FirstDetailViewController.swift */,
 				D2C4163E1C8EAC570058C98D /* SecondOsusumeViewController.swift */,
 				D2968CF21C8D62A400DA01E7 /* SecondViewController.swift */,
@@ -250,9 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D2968CFB1C8D62A400DA01E7 /* LaunchScreen.storyboard in Resources */,
+				D2C652011CA05F64004583CD /* donburi.png in Resources */,
+				D2C651FB1CA0599F004583CD /*   food.png in Resources */,
 				D2C651F91C993183004583CD /* Main.storyboard in Resources */,
 				D2968CF81C8D62A400DA01E7 /* Assets.xcassets in Resources */,
 				D2C416451C900B7F0058C98D /* firstnagoya.plist in Resources */,
+				D2C651FF1CA05AC0004583CD /* recommend.png in Resources */,
 				D2C416471C900BA00058C98D /* secondnagoya.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

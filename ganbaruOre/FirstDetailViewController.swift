@@ -39,6 +39,8 @@ class FirstDetailViewController: UIViewController {
         var storeName = nagoyafood[scSelectedIndex]["name"] as! String
         print(storeName)
         
+        self.navigationItem.title = storeName
+        
         var longitude = atof(nagoyafood[scSelectedIndex]["longitude"] as! String)
         var latitude = atof(nagoyafood[scSelectedIndex]["latitude"] as! String)
         

@@ -37,6 +37,9 @@ class SecondDetailViewController: UIViewController {
             
         }
 //        plistからデータ取得
+        var storeName = osusumeshop[scSelectedIndex]["name"] as! String
+        
+        self.navigationItem.title = storeName
         var address = osusumeshop[scSelectedIndex]["address"] as! String
         var phone = osusumeshop[scSelectedIndex]["phone"] as! String
         var hp = osusumeshop[scSelectedIndex]["hp"] as! String
