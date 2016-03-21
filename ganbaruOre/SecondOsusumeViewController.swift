@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 
 class SecondOsusumeViewController: UIViewController {
 
@@ -17,6 +18,7 @@ class SecondOsusumeViewController: UIViewController {
     var dic:NSDictionary?
     
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
+    var lm : CLLocationManager! = nil
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -40,13 +42,25 @@ class SecondOsusumeViewController: UIViewController {
         var longitude = atof(osusumeshop[1]["longitude"] as! String)
         var latitude = atof(osusumeshop[1]["latitude"] as! String)
         
+        self.lm = CLLocationManager()
         
+        // セキュリティ認証のステータスを取得.
+        let status = CLLocationManager.authorizationStatus()
         
+        // まだ認証が得られていない場合は、認証ダイアログを表示.
+        if(status == CLAuthorizationStatus.NotDetermined) {
+            print("didChangeAuthorizationStatus:\(status)");
+            // まだ承認が得られていない場合は、認証ダイアログを表示.
+            
+            self.lm.requestWhenInUseAuthorization()
+        }
+
+        self.lm.startUpdatingLocation()
         
         // Do any additional setup after loading the view.
         let coordinate = CLLocationCoordinate2DMake(latitude, longitude);
         //縮尺を設定
-        let span = MKCoordinateSpanMake(0.01, 0.01)
+        let span = MKCoordinateSpanMake(0.5, 0.5)
         
         
         //範囲オブジェクトを作成
@@ -55,11 +69,23 @@ class SecondOsusumeViewController: UIViewController {
         //MapViewに設定
         secondFoodMap.setRegion(region, animated: true)
         
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = coordinate
-        annotation.title = "title"
-        annotation.subtitle = "subtitle"
-        self.secondFoodMap.addAnnotation(annotation)
+        // pinを立てる
+        for nagoyafood_each in osusumeshop {
+            var longitude = atof(nagoyafood_each["longitude"] as! String)
+            var latitude = atof(nagoyafood_each["latitude"] as! String)
+            
+            var coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+            
+            var annotation = MKPointAnnotation()
+            annotation.coordinate = coordinate
+            annotation.title = nagoyafood_each["name"] as! String
+            annotation.subtitle = nagoyafood_each["address"] as! String
+            self.secondFoodMap.addAnnotation(annotation)
+            
+            
+        }
+
+        
         
     }
     

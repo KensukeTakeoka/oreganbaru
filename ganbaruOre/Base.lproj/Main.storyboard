@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MuO-hw-Umq">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MuO-hw-Umq">
                                 <rect key="frame" x="0.0" y="125" width="375" height="542"/>
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -117,11 +117,11 @@
                                     <segue destination="78c-3a-vNd" kind="show" id="P2b-Nm-c9T"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-OC-oLk">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-OC-oLk">
                                 <rect key="frame" x="0.0" y="64" width="320" height="229"/>
                                 <animations/>
                             </mapView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
                                 <rect key="frame" x="0.0" y="301" width="320" height="267"/>
                                 <animations/>
                                 <constraints>
@@ -327,7 +327,7 @@ http://www.yahoo.co.jp/
                                 <animations/>
                                 <state key="normal" title="Button"/>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Lu5-xz-xml">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Lu5-xz-xml">
                                 <rect key="frame" x="0.0" y="64" width="320" height="237"/>
                                 <animations/>
                             </mapView>
@@ -370,6 +370,7 @@ http://www.yahoo.co.jp/
                     <navigationItem key="navigationItem" id="XeK-5l-f2Q"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="secondDetail" destination="Lu5-xz-xml" id="un2-ki-WWB"/>
                         <outlet property="secondText" destination="SLB-S2-U9y" id="cXX-mt-qoz"/>
                     </connections>
                 </viewController>
@@ -410,7 +411,7 @@ http://www.yahoo.co.jp/
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="7Ys-7n-Ocl">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7Ys-7n-Ocl">
                                 <rect key="frame" x="0.0" y="81" width="320" height="487"/>
                                 <animations/>
                             </mapView>
@@ -509,6 +510,6 @@ http://www.yahoo.co.jp/
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="P2b-Nm-c9T"/>
+        <segue reference="H7J-I4-lDh"/>
     </inferredMetricsTieBreakers>
 </document>

@@ -45,7 +45,7 @@ class SecondDetailViewController: UIViewController {
 //        キーボードを無くすコード
         secondText.editable = false
         
-        secondText.text = "住所:\n\(address)連絡先:\n\(phone)ホームページ:\n\(hp)定休日:\n\(holiday)営業時間:\n\(hours)"
+        secondText.text = "住所:\n\n\(address)\n\n連絡先:\n\n\(phone)\n\nホームページ:\n\n\(hp)\n\n定休日:\n\n\(holiday)\n\n営業時間:\n\n\(hours)\n\n"
         
         
         var recomendShop = osusumeshop[scSelectedIndex]["name"] as! String
@@ -66,15 +66,20 @@ class SecondDetailViewController: UIViewController {
         //範囲オブジェクトを作成
         let region = MKCoordinateRegionMake(coordinate, span)
         
-//        //MapViewに設定
-//        firsyDetail.setRegion(region, animated: true)
-//        
-//        let annotation = MKPointAnnotation()
-//        annotation.coordinate = coordinate
-//        annotation.title = "title"
-//        annotation.subtitle = "subtitle"
-//        self.firsyDetail.addAnnotation(annotation)
+        //MapViewに設定
+        secondDetail.setRegion(region, animated: true)
         
+        let annotation = MKPointAnnotation()
+        annotation.coordinate = coordinate
+        annotation.title = "title"
+        annotation.subtitle = "subtitle"
+        self.secondDetail.addAnnotation(annotation)
+        
+        
+    
+    
+    
+    
     }
     
     

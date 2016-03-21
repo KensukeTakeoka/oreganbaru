@@ -8,19 +8,24 @@
 
 import UIKit
 import MapKit
+import CoreLocation
+
 
 class FirstfoodViewController: UIViewController {
 
     @IBOutlet weak var firstFoodBtn: UIButton!
     @IBOutlet weak var firstFoodMap: MKMapView!
     var nagoyafood:[NSDictionary] = []
-     var dic:NSDictionary?
+    var dic:NSDictionary?
     
     var appDelegate:AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
-
+    var lm : CLLocationManager! = nil
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
         //ファイルのパスを取得
         var filePath = NSBundle.mainBundle().pathForResource("firstnagoya", ofType: "plist")
         
@@ -38,16 +43,31 @@ class FirstfoodViewController: UIViewController {
             
         }
         
+        
+        
         var longitude = atof(nagoyafood[1]["longitude"] as! String)
         var latitude = atof(nagoyafood[1]["latitude"] as! String)
 
-
-      
+        
+        self.lm = CLLocationManager()
+        
+        // セキュリティ認証のステータスを取得.
+        let status = CLLocationManager.authorizationStatus()
+        
+        // まだ認証が得られていない場合は、認証ダイアログを表示.
+        if(status == CLAuthorizationStatus.NotDetermined) {
+            print("didChangeAuthorizationStatus:\(status)");
+            // まだ承認が得られていない場合は、認証ダイアログを表示.
+        
+            self.lm.requestWhenInUseAuthorization()
+        }
+            
+            self.lm.startUpdatingLocation()
 
         // Do any additional setup after loading the view.
-        let coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+        var coordinate = CLLocationCoordinate2DMake(latitude, longitude);
         //縮尺を設定
-        let span = MKCoordinateSpanMake(0.01, 0.01)
+        let span = MKCoordinateSpanMake(0.5, 0.5)
         
         
         //範囲オブジェクトを作成
@@ -56,11 +76,22 @@ class FirstfoodViewController: UIViewController {
         //MapViewに設定
         firstFoodMap.setRegion(region, animated: true)
         
-        let annotation = MKPointAnnotation()
-        annotation.coordinate = coordinate
-        annotation.title = "title"
-        annotation.subtitle = "subtitle"
-        self.firstFoodMap.addAnnotation(annotation)
+        
+        // pinを立てる
+        for nagoyafood_each in nagoyafood {
+            var longitude = atof(nagoyafood_each["longitude"] as! String)
+            var latitude = atof(nagoyafood_each["latitude"] as! String)
+            
+            var coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+            
+            var annotation = MKPointAnnotation()
+            annotation.coordinate = coordinate
+            annotation.title = nagoyafood_each["name"] as! String
+            annotation.subtitle = nagoyafood_each["address"] as! String
+            self.firstFoodMap.addAnnotation(annotation)
+            
+            
+        }
         
     }
     

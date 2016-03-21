@@ -60,7 +60,7 @@ class FirstDetailViewController: UIViewController {
         //        キーボードを無くすコード
         firstText.editable = false
         
-        firstText.text = "住所:\n\(address)連絡先:\n\(phone)ホームページ:\n\(hp)定休日:\n\(holiday)営業時間:\n\(hours)"
+        firstText.text = "住所:\n\n\(address)\n\n連絡先:\n\n\(phone)\nホームページ:\n\n\(hp)\n\n定休日:\n\n\(holiday)\n営業時間:\n\n\(hours)\n\n"
        
         
         
