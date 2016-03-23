@@ -9,10 +9,12 @@
 import UIKit
 import MapKit
 import CoreLocation
+import iAd
 
 
 class FirstfoodViewController: UIViewController {
 
+    @IBOutlet weak var myAdBannerr: ADBannerView!
     @IBOutlet weak var firstFoodBtn: UIButton!
     @IBOutlet weak var firstFoodMap: MKMapView!
     var nagoyafood:[NSDictionary] = []
@@ -23,6 +25,8 @@ class FirstfoodViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.canDisplayBannerAds = true
+        self.myAdBannerr.hidden = true
         
         
         
@@ -98,6 +102,18 @@ class FirstfoodViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    //iAD指定
+    func bannerViewDidLoadAd(banner: ADBannerView!) {
+        self.myAdBannerr?.hidden = false
+    }
+    
+    func bannerViewActionShouldBegin(banner: ADBannerView!, willLeaveApplication willLeave: Bool) -> Bool {
+        return willLeave
+    }
+    
+    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
+        self.myAdBannerr?.hidden = true
     }
     
     @IBAction func firstFoodsBtn(sender: AnyObject) {

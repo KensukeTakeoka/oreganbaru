@@ -9,9 +9,11 @@
 import UIKit
 import MapKit
 import CoreLocation
+import iAd
 
 class SecondOsusumeViewController: UIViewController {
 
+    @IBOutlet weak var myAdBannertwo: ADBannerView!
     @IBOutlet weak var secondBtnList: UIButton!
     @IBOutlet weak var secondFoodMap: MKMapView!
     var osusumeshop:[NSDictionary] = []
@@ -21,6 +23,10 @@ class SecondOsusumeViewController: UIViewController {
     var lm : CLLocationManager! = nil
 
     override func viewDidLoad() {
+        
+        self.canDisplayBannerAds = true
+        self.myAdBannertwo.hidden = true
+        
         super.viewDidLoad()
         //ファイルのパスを取得
         var filePath = NSBundle.mainBundle().pathForResource("secondnagoya", ofType: "plist")
@@ -93,6 +99,18 @@ class SecondOsusumeViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    func bannerViewDidLoadAd(banner: ADBannerView!) {
+        self.myAdBannertwo?.hidden = false
+    }
+    
+    func bannerViewActionShouldBegin(banner: ADBannerView!, willLeaveApplication willLeave: Bool) -> Bool {
+        return willLeave
+    }
+    
+    func bannerView(banner: ADBannerView!, didFailToReceiveAdWithError error: NSError!) {
+        self.myAdBannertwo?.hidden = true
+    }
+
     
     @IBAction func secondBtnList(sender: UIButton) {
         //self.dismissViewControllerAnimated(false, completion: nil)

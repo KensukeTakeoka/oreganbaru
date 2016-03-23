@@ -82,9 +82,9 @@
 			<key>hp</key>
 			<string>http://moricoro-park.com/shisetsu/satsukitomei/</string>
 			<key>holiday</key>
-			<string>平日：10:00〜16:30 ／ 土日祝：9:30～16:30（入館は16:00まで）</string>
+			<string>不明</string>
 			<key>hours</key>
-			<string></string>
+			<string>平日：10:00〜16:30 ／ 土日祝：9:30～16:30（入館は16:00まで）</string>
 		</dict>
 		<dict>
 			<key>genre</key>
@@ -489,9 +489,9 @@ FAX: 052-203-0788</string>
 			<key>hp</key>
 			<string>http://www.tagatajinja.com/</string>
 			<key>holiday</key>
-			<string></string>
+			<string>不明</string>
 			<key>hours</key>
-			<string></string>
+			<string>不明</string>
 		</dict>
 		<dict>
 			<key>genre</key>
@@ -549,9 +549,9 @@ FAX: 052-203-0788</string>
 			<key>hp</key>
 			<string>http://inuuniqvillage.com/</string>
 			<key>holiday</key>
-			<string></string>
+			<string>不明</string>
 			<key>hours</key>
-			<string></string>
+			<string>不明</string>
 		</dict>
 		<dict>
 			<key>genre</key>
@@ -569,9 +569,9 @@ FAX: 052-203-0788</string>
 			<key>hp</key>
 			<string>http://inuuniqvillage.com/</string>
 			<key>holiday</key>
-			<string></string>
+			<string>不明</string>
 			<key>hours</key>
-			<string></string>
+			<string>不明</string>
 		</dict>
 		<dict>
 			<key>genre</key>
@@ -589,9 +589,9 @@ FAX: 052-203-0788</string>
 			<key>hp</key>
 			<string>http://cineaste.jp/</string>
 			<key>holiday</key>
-			<string></string>
+			<string>不明</string>
 			<key>hours</key>
-			<string></string>
+			<string>不明</string>
 		</dict>
 		<dict>
 			<key>genre</key>
@@ -609,9 +609,9 @@ FAX: 052-203-0788</string>
 			<key>hp</key>
 			<string>http://www.cinemaskhole.co.jp/cinema/html/</string>
 			<key>holiday</key>
-			<string></string>
+			<string>不明</string>
 			<key>hours</key>
-			<string></string>
+			<string>不明</string>
 		</dict>
 		<dict>
 			<key>genre</key>

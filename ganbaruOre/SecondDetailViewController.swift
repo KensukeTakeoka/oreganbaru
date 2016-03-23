@@ -74,8 +74,8 @@ class SecondDetailViewController: UIViewController {
         
         let annotation = MKPointAnnotation()
         annotation.coordinate = coordinate
-        annotation.title = "title"
-        annotation.subtitle = "subtitle"
+        annotation.title = storeName
+        annotation.subtitle = address
         self.secondDetail.addAnnotation(annotation)
         
         

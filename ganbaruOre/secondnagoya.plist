@@ -542,7 +542,7 @@ JRセントラルタワーズ 13F</string>
 			<key>longitude</key>
 			<string>136.867703</string>
 			<key>address</key>
-			<string>
+			<string>愛知県北名古屋市九之坪長堀５６−１
 
 愛知県北名古屋市九之坪長堀56-1</string>
 			<key>phone</key>
@@ -637,7 +637,7 @@ JRセントラルタワーズ 13F</string>
 		</dict>
 		<dict>
 			<key>genre</key>
-			<string></string>
+			<string>カフェ</string>
 			<key>name</key>
 			<string>たいよう</string>
 			<key>latitude</key>
@@ -657,7 +657,7 @@ JRセントラルタワーズ 13F</string>
 		</dict>
 		<dict>
 			<key>genre</key>
-			<string></string>
+			<string>カフェ</string>
 			<key>name</key>
 			<string>decibel</string>
 			<key>latitude</key>

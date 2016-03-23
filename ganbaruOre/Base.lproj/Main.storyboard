@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--First View Controller-->
@@ -54,6 +55,13 @@
                                     <action selector="returnBtn:" destination="9pv-A4-QxB" eventType="touchUpInside" id="5eN-Mw-gHZ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="おすすめ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d4G-Xb-gt1">
+                                <rect key="frame" x="0.0" y="67" width="144" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.38823529410000002" green="0.90588235289999997" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
@@ -63,6 +71,8 @@
                             <constraint firstAttribute="trailing" secondItem="Se4-td-cne" secondAttribute="trailing" constant="20" id="ODz-m5-Jk9"/>
                             <constraint firstItem="MuO-hw-Umq" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="RpU-dW-mJE"/>
                             <constraint firstItem="MuO-hw-Umq" firstAttribute="top" secondItem="Se4-td-cne" secondAttribute="bottom" constant="10" id="fSi-yK-uRb"/>
+                            <constraint firstItem="d4G-Xb-gt1" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="3" id="oDC-ga-nwg"/>
+                            <constraint firstItem="d4G-Xb-gt1" firstAttribute="leading" secondItem="tsR-hK-woN" secondAttribute="leading" id="wn3-TU-Pia"/>
                             <constraint firstAttribute="bottom" secondItem="MuO-hw-Umq" secondAttribute="bottom" id="z0d-BV-057"/>
                         </constraints>
                     </view>
@@ -98,11 +108,11 @@
                                     <segue destination="78c-3a-vNd" kind="show" id="P2b-Nm-c9T"/>
                                 </connections>
                             </button>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-OC-oLk">
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="iLc-OC-oLk">
                                 <rect key="frame" x="0.0" y="64" width="320" height="229"/>
                                 <animations/>
                             </mapView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ttG-UU-JaA">
                                 <rect key="frame" x="0.0" y="301" width="320" height="267"/>
                                 <animations/>
                                 <constraints>
@@ -165,7 +175,7 @@ http://www.yahoo.co.jp/
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="q8M-jT-ZDr">
-                                <rect key="frame" x="0.0" y="68" width="320" height="451"/>
+                                <rect key="frame" x="0.0" y="68" width="320" height="500"/>
                                 <animations/>
                             </mapView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIg-Ca-aM3">
@@ -185,29 +195,40 @@ http://www.yahoo.co.jp/
                                     <segue destination="P6j-Ea-N7g" kind="show" id="6gx-1c-Rkv"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="お食事" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc7-Yx-9zN">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="お食事" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zc7-Yx-9zN">
                                 <rect key="frame" x="5" y="20" width="144" height="40"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" translatesAutoresizingMaskIntoConstraints="NO" id="LoB-F4-oVF">
+                                <rect key="frame" x="0.0" y="453" width="320" height="66"/>
+                                <animations/>
+                            </adBannerView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.38823529410000002" green="0.90588235289999997" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="zc7-Yx-9zN" firstAttribute="leading" secondItem="cbo-DQ-Cvc" secondAttribute="leadingMargin" constant="-11" id="1uF-5k-XlW"/>
+                            <constraint firstItem="zc7-Yx-9zN" firstAttribute="top" secondItem="62n-Nk-N2z" secondAttribute="bottom" id="382-yG-4Qj"/>
                             <constraint firstItem="q8M-jT-ZDr" firstAttribute="top" secondItem="SIg-Ca-aM3" secondAttribute="bottom" constant="10" id="AUk-wl-pmh"/>
+                            <constraint firstItem="LoB-F4-oVF" firstAttribute="bottom" secondItem="aXf-q6-F9M" secondAttribute="top" id="D4f-Q7-LJe"/>
                             <constraint firstItem="SIg-Ca-aM3" firstAttribute="top" secondItem="62n-Nk-N2z" secondAttribute="bottom" constant="8" id="Eqz-aq-ECs"/>
-                            <constraint firstItem="aXf-q6-F9M" firstAttribute="top" secondItem="q8M-jT-ZDr" secondAttribute="bottom" id="Jl6-UY-nyg"/>
+                            <constraint firstAttribute="bottom" secondItem="q8M-jT-ZDr" secondAttribute="bottom" id="Fyv-gl-EbD"/>
+                            <constraint firstItem="SIg-Ca-aM3" firstAttribute="leading" secondItem="zc7-Yx-9zN" secondAttribute="trailing" constant="61" id="NPY-jT-EV3"/>
                             <constraint firstItem="SIg-Ca-aM3" firstAttribute="leading" secondItem="cbo-DQ-Cvc" secondAttribute="leading" constant="210" id="UNN-7G-lZC"/>
                             <constraint firstAttribute="trailing" secondItem="q8M-jT-ZDr" secondAttribute="trailing" id="bCM-m0-MmH"/>
                             <constraint firstAttribute="trailing" secondItem="SIg-Ca-aM3" secondAttribute="trailing" constant="20" id="hBw-Df-Uyf"/>
+                            <constraint firstItem="q8M-jT-ZDr" firstAttribute="leading" secondItem="LoB-F4-oVF" secondAttribute="leading" id="jLA-vx-1be"/>
+                            <constraint firstItem="q8M-jT-ZDr" firstAttribute="top" secondItem="zc7-Yx-9zN" secondAttribute="bottom" constant="8" symbolic="YES" id="ts8-YO-pa9"/>
                             <constraint firstItem="q8M-jT-ZDr" firstAttribute="leading" secondItem="cbo-DQ-Cvc" secondAttribute="leading" id="yTB-VQ-wlr"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="お食事" image="donburi.png" id="uWS-XR-Ua5"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
+                        <outlet property="myAdBannertwo" destination="LoB-F4-oVF" id="qzm-pj-kFD"/>
                         <outlet property="secondBtnList" destination="SIg-Ca-aM3" id="xDG-VK-v3f"/>
                         <outlet property="secondFoodMap" destination="q8M-jT-ZDr" id="gDq-OD-eQo"/>
                     </connections>
@@ -266,6 +287,13 @@ http://www.yahoo.co.jp/
                                     <action selector="secondRtnBtn:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="5b9-Ub-hsQ"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="お食事" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1w9-mK-clB">
+                                <rect key="frame" x="0.0" y="67" width="144" height="40"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.38823529411764707" green="0.90588235294117647" blue="0.090196078431372548" alpha="1" colorSpace="calibratedRGB"/>
@@ -273,9 +301,11 @@ http://www.yahoo.co.jp/
                             <constraint firstAttribute="trailing" secondItem="9rw-5N-HDl" secondAttribute="trailing" id="DuC-Fz-nzE"/>
                             <constraint firstItem="oVX-jT-pHi" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="8" id="Z3l-Fi-W5A"/>
                             <constraint firstItem="9rw-5N-HDl" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="bVJ-I9-kgZ"/>
+                            <constraint firstItem="1w9-mK-clB" firstAttribute="top" secondItem="L7p-HK-0SC" secondAttribute="bottom" constant="3" id="gb4-C9-chC"/>
                             <constraint firstAttribute="bottom" secondItem="9rw-5N-HDl" secondAttribute="bottom" id="hYe-s4-SmO"/>
                             <constraint firstAttribute="trailing" secondItem="oVX-jT-pHi" secondAttribute="trailing" constant="20" id="qDf-XP-vJM"/>
                             <constraint firstItem="9rw-5N-HDl" firstAttribute="top" secondItem="oVX-jT-pHi" secondAttribute="bottom" constant="10" id="t1X-yd-E2Q"/>
+                            <constraint firstItem="1w9-mK-clB" firstAttribute="leading" secondItem="QS5-Rx-YEW" secondAttribute="leading" id="ufq-n0-aT9"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="n7z-Kj-zGq"/>
@@ -417,6 +447,10 @@ http://www.yahoo.co.jp/
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <adBannerView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fay-BE-OGq">
+                                <rect key="frame" x="0.0" y="453" width="320" height="66"/>
+                                <animations/>
+                            </adBannerView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" red="0.38823529410000002" green="0.90588235289999997" blue="0.090196078430000007" alpha="1" colorSpace="calibratedRGB"/>
@@ -435,6 +469,7 @@ http://www.yahoo.co.jp/
                     <connections>
                         <outlet property="firstFoodBtn" destination="zZ8-1I-BYS" id="WKc-zE-puv"/>
                         <outlet property="firstFoodMap" destination="7Ys-7n-Ocl" id="6qV-dB-k4d"/>
+                        <outlet property="myAdBannerr" destination="fay-BE-OGq" id="VYC-s7-U36"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="szF-J5-kqr" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -487,6 +522,6 @@ http://www.yahoo.co.jp/
         <image name="recommend.png" width="44" height="44"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="P2b-Nm-c9T"/>
+        <segue reference="H7J-I4-lDh"/>
     </inferredMetricsTieBreakers>
 </document>
